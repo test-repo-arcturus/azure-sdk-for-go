@@ -19,8 +19,8 @@ package notificationhubsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/notificationhubs/mgmt/2016-03-01/notificationhubs"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/notificationhubs/mgmt/2016-03-01/notificationhubs"
 )
 
 // NamespacesClientAPI contains the set of methods on the NamespacesClient type.

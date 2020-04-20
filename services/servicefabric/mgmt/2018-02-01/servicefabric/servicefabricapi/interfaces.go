@@ -19,8 +19,8 @@ package servicefabricapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/mgmt/2018-02-01/servicefabric"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/mgmt/2018-02-01/servicefabric"
 )
 
 // ClustersClientAPI contains the set of methods on the ClustersClient type.

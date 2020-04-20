@@ -19,8 +19,8 @@ package webapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/web/mgmt/2015-08-01-preview/web"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/web/mgmt/2015-08-01-preview/web"
 )
 
 // CertificateOrdersClientAPI contains the set of methods on the CertificateOrdersClient type.

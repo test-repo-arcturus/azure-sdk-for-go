@@ -19,8 +19,8 @@ package contentmoderatorapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/contentmoderator"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/contentmoderator"
 	"io"
 )
 

@@ -19,8 +19,8 @@ package hybridcomputeapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/hybridcompute/mgmt/2019-12-12/hybridcompute"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/hybridcompute/mgmt/2019-12-12/hybridcompute"
 )
 
 // MachinesClientAPI contains the set of methods on the MachinesClient type.

@@ -19,8 +19,8 @@ package redisapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

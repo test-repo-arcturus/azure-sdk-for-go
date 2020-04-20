@@ -19,8 +19,8 @@ package dnsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/dns/mgmt/2018-03-01-preview/dns"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/dns/mgmt/2018-03-01-preview/dns"
 )
 
 // RecordSetsClientAPI contains the set of methods on the RecordSetsClient type.

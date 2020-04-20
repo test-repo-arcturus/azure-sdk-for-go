@@ -19,8 +19,8 @@ package frontdoorapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/frontdoor/mgmt/2019-11-01/frontdoor"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/frontdoor/mgmt/2019-11-01/frontdoor"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

@@ -19,8 +19,8 @@ package storagedatalakeapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/storage/datalake/2018-06-17/storagedatalake"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/storage/datalake/2018-06-17/storagedatalake"
 	"io"
 )
 

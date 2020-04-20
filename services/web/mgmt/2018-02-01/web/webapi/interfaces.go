@@ -19,9 +19,9 @@ package webapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/web/mgmt/2018-02-01/web"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/web/mgmt/2018-02-01/web"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

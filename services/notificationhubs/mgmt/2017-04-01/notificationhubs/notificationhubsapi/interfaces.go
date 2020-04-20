@@ -19,8 +19,8 @@ package notificationhubsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/notificationhubs/mgmt/2017-04-01/notificationhubs"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/notificationhubs/mgmt/2017-04-01/notificationhubs"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

@@ -19,8 +19,8 @@ package databoxapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/databox/mgmt/2019-09-01/databox"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/databox/mgmt/2019-09-01/databox"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

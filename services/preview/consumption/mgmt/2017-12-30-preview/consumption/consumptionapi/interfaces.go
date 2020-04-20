@@ -19,8 +19,8 @@ package consumptionapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/consumption/mgmt/2017-12-30-preview/consumption"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/consumption/mgmt/2017-12-30-preview/consumption"
 )
 
 // BudgetsClientAPI contains the set of methods on the BudgetsClient type.

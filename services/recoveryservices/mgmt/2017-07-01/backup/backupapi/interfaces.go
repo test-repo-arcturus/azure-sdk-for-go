@@ -19,8 +19,8 @@ package backupapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2017-07-01/backup"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2017-07-01/backup"
 )
 
 // AadPropertiesClientAPI contains the set of methods on the AadPropertiesClient type.

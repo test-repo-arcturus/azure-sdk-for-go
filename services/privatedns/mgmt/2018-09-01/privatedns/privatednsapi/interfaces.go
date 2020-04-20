@@ -19,8 +19,8 @@ package privatednsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/privatedns/mgmt/2018-09-01/privatedns"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/privatedns/mgmt/2018-09-01/privatedns"
 )
 
 // PrivateZonesClientAPI contains the set of methods on the PrivateZonesClient type.

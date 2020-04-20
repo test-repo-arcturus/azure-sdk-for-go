@@ -19,8 +19,8 @@ package personalizerapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/personalizer/v1.0/personalizer"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/personalizer/v1.0/personalizer"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

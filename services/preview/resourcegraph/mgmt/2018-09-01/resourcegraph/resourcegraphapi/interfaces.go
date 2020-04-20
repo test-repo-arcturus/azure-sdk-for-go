@@ -19,8 +19,8 @@ package resourcegraphapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resourcegraph/mgmt/2018-09-01/resourcegraph"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resourcegraph/mgmt/2018-09-01/resourcegraph"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

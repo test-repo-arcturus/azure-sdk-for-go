@@ -19,8 +19,8 @@ package machinelearningservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

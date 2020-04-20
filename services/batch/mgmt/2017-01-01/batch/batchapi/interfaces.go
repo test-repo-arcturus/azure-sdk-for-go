@@ -19,8 +19,8 @@ package batchapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/mgmt/2017-01-01/batch"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/mgmt/2017-01-01/batch"
 )
 
 // AccountClientAPI contains the set of methods on the AccountClient type.

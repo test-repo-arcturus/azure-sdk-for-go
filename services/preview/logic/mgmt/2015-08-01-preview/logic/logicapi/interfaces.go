@@ -19,8 +19,8 @@ package logicapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/logic/mgmt/2015-08-01-preview/logic"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/logic/mgmt/2015-08-01-preview/logic"
 )
 
 // IntegrationAccountsClientAPI contains the set of methods on the IntegrationAccountsClient type.

@@ -19,8 +19,8 @@ package locksapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-09-01/locks"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-09-01/locks"
 )
 
 // AuthorizationOperationsClientAPI contains the set of methods on the AuthorizationOperationsClient type.

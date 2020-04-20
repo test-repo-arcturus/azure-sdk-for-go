@@ -19,9 +19,9 @@ package jobapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2017-09-01-preview/job"
 	"github.com/Azure/go-autorest/autorest/date"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2017-09-01-preview/job"
 )
 
 // ClientAPI contains the set of methods on the Client type.

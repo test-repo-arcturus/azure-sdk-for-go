@@ -19,8 +19,8 @@ package peeringapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/peering/mgmt/2019-09-01-preview/peering"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/peering/mgmt/2019-09-01-preview/peering"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

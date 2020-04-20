@@ -19,9 +19,9 @@ package searchapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/search/mgmt/2015-08-19/search"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/search/mgmt/2015-08-19/search"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

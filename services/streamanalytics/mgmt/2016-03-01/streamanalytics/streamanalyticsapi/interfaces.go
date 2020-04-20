@@ -19,8 +19,8 @@ package streamanalyticsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/streamanalytics/mgmt/2016-03-01/streamanalytics"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/streamanalytics/mgmt/2016-03-01/streamanalytics"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

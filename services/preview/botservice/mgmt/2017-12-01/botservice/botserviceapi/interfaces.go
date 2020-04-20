@@ -19,8 +19,8 @@ package botserviceapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/botservice/mgmt/2017-12-01/botservice"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/botservice/mgmt/2017-12-01/botservice"
 )
 
 // BotsClientAPI contains the set of methods on the BotsClient type.

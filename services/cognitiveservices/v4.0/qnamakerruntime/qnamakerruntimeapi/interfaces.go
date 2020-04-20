@@ -19,8 +19,8 @@ package qnamakerruntimeapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamakerruntime"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamakerruntime"
 )
 
 // RuntimeClientAPI contains the set of methods on the RuntimeClient type.

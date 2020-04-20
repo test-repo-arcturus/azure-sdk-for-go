@@ -19,8 +19,8 @@ package backupapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2019-06-15/backup"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2019-06-15/backup"
 )
 
 // ResourceVaultConfigsClientAPI contains the set of methods on the ResourceVaultConfigsClient type.

@@ -19,8 +19,8 @@ package enterpriseknowledgegraphserviceapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/enterpriseknowledgegraphservice/2018-12-03/enterpriseknowledgegraphservice"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/enterpriseknowledgegraphservice/2018-12-03/enterpriseknowledgegraphservice"
 )
 
 // EnterpriseKnowledgeGraphClientAPI contains the set of methods on the EnterpriseKnowledgeGraphClient type.

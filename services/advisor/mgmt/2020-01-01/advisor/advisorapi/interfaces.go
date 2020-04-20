@@ -19,9 +19,9 @@ package advisorapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/advisor/mgmt/2020-01-01/advisor"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/advisor/mgmt/2020-01-01/advisor"
 )
 
 // RecommendationMetadataClientAPI contains the set of methods on the RecommendationMetadataClient type.

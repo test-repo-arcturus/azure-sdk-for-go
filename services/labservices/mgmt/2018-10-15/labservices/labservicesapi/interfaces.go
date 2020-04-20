@@ -19,8 +19,8 @@ package labservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
 )
 
 // ProviderOperationsClientAPI contains the set of methods on the ProviderOperationsClient type.

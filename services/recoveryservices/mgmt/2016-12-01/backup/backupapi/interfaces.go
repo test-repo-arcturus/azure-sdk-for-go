@@ -19,8 +19,8 @@ package backupapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2016-12-01/backup"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2016-12-01/backup"
 )
 
 // EnginesClientAPI contains the set of methods on the EnginesClient type.

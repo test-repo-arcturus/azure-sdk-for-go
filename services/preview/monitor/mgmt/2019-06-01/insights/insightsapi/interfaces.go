@@ -19,8 +19,8 @@ package insightsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/mgmt/2019-06-01/insights"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/mgmt/2019-06-01/insights"
 )
 
 // AutoscaleSettingsClientAPI contains the set of methods on the AutoscaleSettingsClient type.

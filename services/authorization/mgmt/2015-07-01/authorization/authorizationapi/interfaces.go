@@ -19,8 +19,8 @@ package authorizationapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/authorization/mgmt/2015-07-01/authorization"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/authorization/mgmt/2015-07-01/authorization"
 )
 
 // PermissionsClientAPI contains the set of methods on the PermissionsClient type.

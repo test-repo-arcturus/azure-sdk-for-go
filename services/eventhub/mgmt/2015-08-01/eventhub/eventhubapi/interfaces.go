@@ -19,8 +19,8 @@ package eventhubapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/eventhub/mgmt/2015-08-01/eventhub"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/eventhub/mgmt/2015-08-01/eventhub"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

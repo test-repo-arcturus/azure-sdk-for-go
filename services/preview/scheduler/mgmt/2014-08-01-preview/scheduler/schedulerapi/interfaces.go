@@ -19,8 +19,8 @@ package schedulerapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/scheduler/mgmt/2014-08-01-preview/scheduler"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/scheduler/mgmt/2014-08-01-preview/scheduler"
 )
 
 // JobCollectionsClientAPI contains the set of methods on the JobCollectionsClient type.

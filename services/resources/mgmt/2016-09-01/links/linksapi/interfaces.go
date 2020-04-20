@@ -19,8 +19,8 @@ package linksapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-09-01/links"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-09-01/links"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

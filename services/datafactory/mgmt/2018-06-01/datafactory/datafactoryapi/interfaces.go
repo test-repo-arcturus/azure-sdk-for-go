@@ -19,8 +19,8 @@ package datafactoryapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datafactory/mgmt/2018-06-01/datafactory"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datafactory/mgmt/2018-06-01/datafactory"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

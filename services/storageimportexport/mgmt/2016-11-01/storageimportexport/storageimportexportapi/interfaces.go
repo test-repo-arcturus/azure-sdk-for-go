@@ -19,8 +19,8 @@ package storageimportexportapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storageimportexport/mgmt/2016-11-01/storageimportexport"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storageimportexport/mgmt/2016-11-01/storageimportexport"
 )
 
 // LocationsClientAPI contains the set of methods on the LocationsClient type.

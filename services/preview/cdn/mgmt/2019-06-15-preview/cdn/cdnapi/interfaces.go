@@ -19,8 +19,8 @@ package cdnapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cdn/mgmt/2019-06-15-preview/cdn"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cdn/mgmt/2019-06-15-preview/cdn"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

@@ -19,8 +19,8 @@ package documentdbapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cosmos-db/mgmt/2019-12-12/documentdb"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cosmos-db/mgmt/2019-12-12/documentdb"
 )
 
 // DatabaseAccountsClientAPI contains the set of methods on the DatabaseAccountsClient type.

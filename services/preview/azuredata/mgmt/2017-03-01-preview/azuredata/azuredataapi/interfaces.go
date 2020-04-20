@@ -19,8 +19,8 @@ package azuredataapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

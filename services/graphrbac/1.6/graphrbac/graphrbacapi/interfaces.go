@@ -19,8 +19,8 @@ package graphrbacapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 )
 
 // SignedInUserClientAPI contains the set of methods on the SignedInUserClient type.

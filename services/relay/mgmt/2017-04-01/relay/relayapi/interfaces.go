@@ -19,8 +19,8 @@ package relayapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/relay/mgmt/2017-04-01/relay"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/relay/mgmt/2017-04-01/relay"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

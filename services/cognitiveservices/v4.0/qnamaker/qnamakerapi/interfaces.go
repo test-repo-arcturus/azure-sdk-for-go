@@ -19,8 +19,8 @@ package qnamakerapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
 )
 
 // EndpointSettingsClientAPI contains the set of methods on the EndpointSettingsClient type.

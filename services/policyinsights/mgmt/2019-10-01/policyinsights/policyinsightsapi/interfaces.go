@@ -19,8 +19,8 @@ package policyinsightsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/policyinsights/mgmt/2019-10-01/policyinsights"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/policyinsights/mgmt/2019-10-01/policyinsights"
 )
 
 // PolicyTrackedResourcesClientAPI contains the set of methods on the PolicyTrackedResourcesClient type.

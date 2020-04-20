@@ -19,8 +19,8 @@ package costmanagementapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2019-10-01/costmanagement"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2019-10-01/costmanagement"
 )
 
 // DimensionsClientAPI contains the set of methods on the DimensionsClient type.

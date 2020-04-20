@@ -19,8 +19,8 @@ package logicapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/logic/mgmt/2019-05-01/logic"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/logic/mgmt/2019-05-01/logic"
 )
 
 // WorkflowsClientAPI contains the set of methods on the WorkflowsClient type.

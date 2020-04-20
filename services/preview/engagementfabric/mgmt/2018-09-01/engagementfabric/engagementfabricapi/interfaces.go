@@ -19,8 +19,8 @@ package engagementfabricapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

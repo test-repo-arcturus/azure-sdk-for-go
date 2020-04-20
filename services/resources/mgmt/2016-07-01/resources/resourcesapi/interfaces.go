@@ -19,8 +19,8 @@ package resourcesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-07-01/resources"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-07-01/resources"
 )
 
 // DeploymentsClientAPI contains the set of methods on the DeploymentsClient type.

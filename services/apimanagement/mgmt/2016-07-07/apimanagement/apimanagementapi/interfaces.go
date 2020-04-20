@@ -19,8 +19,8 @@ package apimanagementapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/apimanagement/mgmt/2016-07-07/apimanagement"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/apimanagement/mgmt/2016-07-07/apimanagement"
 )
 
 // ApisClientAPI contains the set of methods on the ApisClient type.

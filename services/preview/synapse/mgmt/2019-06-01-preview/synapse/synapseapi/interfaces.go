@@ -19,8 +19,8 @@ package synapseapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/synapse/mgmt/2019-06-01-preview/synapse"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/synapse/mgmt/2019-06-01-preview/synapse"
 )
 
 // BigDataPoolsClientAPI contains the set of methods on the BigDataPoolsClient type.

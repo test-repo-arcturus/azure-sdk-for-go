@@ -19,8 +19,8 @@ package searchapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/search/mgmt/2015-02-28/search"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/search/mgmt/2015-02-28/search"
 )
 
 // AdminKeysClientAPI contains the set of methods on the AdminKeysClient type.

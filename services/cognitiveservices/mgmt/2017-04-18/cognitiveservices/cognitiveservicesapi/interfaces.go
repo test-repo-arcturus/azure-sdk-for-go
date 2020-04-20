@@ -19,8 +19,8 @@ package cognitiveservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/mgmt/2017-04-18/cognitiveservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/mgmt/2017-04-18/cognitiveservices"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

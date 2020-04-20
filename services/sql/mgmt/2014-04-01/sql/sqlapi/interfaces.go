@@ -19,8 +19,8 @@ package sqlapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/sql/mgmt/2014-04-01/sql"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/sql/mgmt/2014-04-01/sql"
 )
 
 // ServerAdvisorsClientAPI contains the set of methods on the ServerAdvisorsClient type.

@@ -19,9 +19,9 @@ package iothubapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/provisioningservices/mgmt/2018-01-22/iothub"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/provisioningservices/mgmt/2018-01-22/iothub"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

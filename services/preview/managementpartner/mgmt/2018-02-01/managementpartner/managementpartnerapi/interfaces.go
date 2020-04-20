@@ -19,8 +19,8 @@ package managementpartnerapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/managementpartner/mgmt/2018-02-01/managementpartner"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/managementpartner/mgmt/2018-02-01/managementpartner"
 )
 
 // PartnerClientAPI contains the set of methods on the PartnerClient type.

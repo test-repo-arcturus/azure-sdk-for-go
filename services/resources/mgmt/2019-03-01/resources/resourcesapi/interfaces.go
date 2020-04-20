@@ -19,8 +19,8 @@ package resourcesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-03-01/resources"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-03-01/resources"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

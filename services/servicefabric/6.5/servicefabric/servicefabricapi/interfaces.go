@@ -19,10 +19,10 @@ package servicefabricapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/6.5/servicefabric"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/6.5/servicefabric"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

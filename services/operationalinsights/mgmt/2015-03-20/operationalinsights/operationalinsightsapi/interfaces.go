@@ -19,8 +19,8 @@ package operationalinsightsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
 )
 
 // StorageInsightsClientAPI contains the set of methods on the StorageInsightsClient type.

@@ -19,8 +19,8 @@ package eventgridapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/eventgrid/2018-01-01/eventgrid"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/eventgrid/2018-01-01/eventgrid"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

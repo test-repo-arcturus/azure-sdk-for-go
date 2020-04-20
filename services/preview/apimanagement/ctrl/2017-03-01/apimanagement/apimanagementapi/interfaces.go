@@ -19,8 +19,8 @@ package apimanagementapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/apimanagement/ctrl/2017-03-01/apimanagement"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/apimanagement/ctrl/2017-03-01/apimanagement"
 )
 
 // PolicyClientAPI contains the set of methods on the PolicyClient type.

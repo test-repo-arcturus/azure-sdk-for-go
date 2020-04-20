@@ -19,8 +19,8 @@ package sqlapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/sql/mgmt/2015-05-01-preview/sql"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/sql/mgmt/2015-05-01-preview/sql"
 )
 
 // BackupLongTermRetentionPoliciesClientAPI contains the set of methods on the BackupLongTermRetentionPoliciesClient type.

@@ -19,8 +19,8 @@ package policyinsightsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/policyinsights/mgmt/2018-04-04/policyinsights"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/policyinsights/mgmt/2018-04-04/policyinsights"
 )
 
 // PolicyEventsClientAPI contains the set of methods on the PolicyEventsClient type.

@@ -19,8 +19,8 @@ package azurestackapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/azurestack/mgmt/2017-06-01/azurestack"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/azurestack/mgmt/2017-06-01/azurestack"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

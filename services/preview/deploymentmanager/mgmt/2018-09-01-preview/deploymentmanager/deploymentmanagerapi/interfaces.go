@@ -19,8 +19,8 @@ package deploymentmanagerapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/deploymentmanager/mgmt/2018-09-01-preview/deploymentmanager"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/deploymentmanager/mgmt/2018-09-01-preview/deploymentmanager"
 )
 
 // ServiceTopologiesClientAPI contains the set of methods on the ServiceTopologiesClient type.

@@ -19,8 +19,8 @@ package powerbiembeddedapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/powerbiembedded/mgmt/2016-01-29/powerbiembedded"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/powerbiembedded/mgmt/2016-01-29/powerbiembedded"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

@@ -19,8 +19,8 @@ package accountapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datalake/analytics/mgmt/2016-11-01/account"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datalake/analytics/mgmt/2016-11-01/account"
 )
 
 // AccountsClientAPI contains the set of methods on the AccountsClient type.

@@ -19,8 +19,8 @@ package windowsesuapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/windowsesu/2019-09-16-preview/windowsesu"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/windowsesu/2019-09-16-preview/windowsesu"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

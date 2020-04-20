@@ -19,8 +19,8 @@ package softwareplanapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/softwareplan/mgmt/2019-06-01-preview/softwareplan"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/softwareplan/mgmt/2019-06-01-preview/softwareplan"
 )
 
 // ClientAPI contains the set of methods on the Client type.

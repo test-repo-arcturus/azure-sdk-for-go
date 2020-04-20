@@ -19,8 +19,8 @@ package storageapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/storage/mgmt/2015-05-01-preview/storage"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/storage/mgmt/2015-05-01-preview/storage"
 )
 
 // AccountsClientAPI contains the set of methods on the AccountsClient type.

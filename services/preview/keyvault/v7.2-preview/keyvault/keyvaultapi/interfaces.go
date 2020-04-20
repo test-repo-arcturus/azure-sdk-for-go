@@ -19,8 +19,8 @@ package keyvaultapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/keyvault/v7.2-preview/keyvault"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/keyvault/v7.2-preview/keyvault"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

@@ -19,9 +19,9 @@ package servicemapapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/operationalinsights/mgmt/2015-11-01-preview/servicemap"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/operationalinsights/mgmt/2015-11-01-preview/servicemap"
 )
 
 // MachinesClientAPI contains the set of methods on the MachinesClient type.

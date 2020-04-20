@@ -19,8 +19,8 @@ package commerceapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/commerce/mgmt/2015-06-01-preview/commerce"
 	"github.com/Azure/go-autorest/autorest/date"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/commerce/mgmt/2015-06-01-preview/commerce"
 )
 
 // UsageAggregatesClientAPI contains the set of methods on the UsageAggregatesClient type.

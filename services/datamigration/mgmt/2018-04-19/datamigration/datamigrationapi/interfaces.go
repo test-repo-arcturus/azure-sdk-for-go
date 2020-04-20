@@ -19,8 +19,8 @@ package datamigrationapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datamigration/mgmt/2018-04-19/datamigration"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datamigration/mgmt/2018-04-19/datamigration"
 )
 
 // ResourceSkusClientAPI contains the set of methods on the ResourceSkusClient type.

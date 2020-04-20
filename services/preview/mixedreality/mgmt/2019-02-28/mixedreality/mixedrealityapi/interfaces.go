@@ -19,8 +19,8 @@ package mixedrealityapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

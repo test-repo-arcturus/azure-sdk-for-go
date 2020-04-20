@@ -19,8 +19,8 @@ package costmanagementapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2018-05-31/costmanagement"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2018-05-31/costmanagement"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

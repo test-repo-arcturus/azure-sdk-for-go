@@ -19,8 +19,8 @@ package managedservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/managedservices/mgmt/2019-06-01/managedservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/managedservices/mgmt/2019-06-01/managedservices"
 )
 
 // RegistrationDefinitionsClientAPI contains the set of methods on the RegistrationDefinitionsClient type.

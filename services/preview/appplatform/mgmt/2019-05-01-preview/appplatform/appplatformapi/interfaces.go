@@ -19,8 +19,8 @@ package appplatformapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appplatform/mgmt/2019-05-01-preview/appplatform"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appplatform/mgmt/2019-05-01-preview/appplatform"
 )
 
 // ServicesClientAPI contains the set of methods on the ServicesClient type.

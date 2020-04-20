@@ -19,8 +19,8 @@ package machinelearningservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/machinelearningservices/mgmt/2020-03-01/machinelearningservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/machinelearningservices/mgmt/2020-03-01/machinelearningservices"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

@@ -19,8 +19,8 @@ package mediaapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/mediaservices/mgmt/2018-07-01/media"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/mediaservices/mgmt/2018-07-01/media"
 )
 
 // AccountFiltersClientAPI contains the set of methods on the AccountFiltersClient type.

@@ -19,8 +19,8 @@ package securityapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/security/mgmt/v3.0/security"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/security/mgmt/v3.0/security"
 )
 
 // ComplianceResultsClientAPI contains the set of methods on the ComplianceResultsClient type.

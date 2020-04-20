@@ -19,8 +19,8 @@ package migrateapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/migrate/mgmt/2018-02-02/migrate"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/migrate/mgmt/2018-02-02/migrate"
 )
 
 // LocationClientAPI contains the set of methods on the LocationClient type.

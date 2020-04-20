@@ -19,8 +19,8 @@ package servicebusapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

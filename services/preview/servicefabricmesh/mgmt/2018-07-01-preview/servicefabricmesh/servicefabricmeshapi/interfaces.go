@@ -19,8 +19,8 @@ package servicefabricmeshapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicefabricmesh/mgmt/2018-07-01-preview/servicefabricmesh"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicefabricmesh/mgmt/2018-07-01-preview/servicefabricmesh"
 )
 
 // ApplicationClientAPI contains the set of methods on the ApplicationClient type.

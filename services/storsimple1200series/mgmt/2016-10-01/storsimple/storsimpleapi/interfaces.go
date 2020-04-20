@@ -19,8 +19,8 @@ package storsimpleapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storsimple1200series/mgmt/2016-10-01/storsimple"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storsimple1200series/mgmt/2016-10-01/storsimple"
 )
 
 // ManagersClientAPI contains the set of methods on the ManagersClient type.

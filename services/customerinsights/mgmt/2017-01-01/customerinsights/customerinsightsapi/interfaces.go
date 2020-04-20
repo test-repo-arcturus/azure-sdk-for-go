@@ -19,8 +19,8 @@ package customerinsightsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/customerinsights/mgmt/2017-01-01/customerinsights"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/customerinsights/mgmt/2017-01-01/customerinsights"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

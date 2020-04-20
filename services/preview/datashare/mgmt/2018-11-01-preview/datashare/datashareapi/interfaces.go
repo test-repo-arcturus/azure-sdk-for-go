@@ -19,8 +19,8 @@ package datashareapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datashare/mgmt/2018-11-01-preview/datashare"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datashare/mgmt/2018-11-01-preview/datashare"
 )
 
 // AccountsClientAPI contains the set of methods on the AccountsClient type.

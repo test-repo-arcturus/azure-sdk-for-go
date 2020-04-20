@@ -19,8 +19,8 @@ package analysisservicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/analysisservices/mgmt/2017-08-01/analysisservices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/analysisservices/mgmt/2017-08-01/analysisservices"
 )
 
 // ServersClientAPI contains the set of methods on the ServersClient type.

@@ -19,8 +19,8 @@ package mapsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/maps/mgmt/2020-02-01-preview/maps"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/maps/mgmt/2020-02-01-preview/maps"
 )
 
 // AccountsClientAPI contains the set of methods on the AccountsClient type.

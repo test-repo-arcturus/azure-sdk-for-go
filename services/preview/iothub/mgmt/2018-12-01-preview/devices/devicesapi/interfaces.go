@@ -19,8 +19,8 @@ package devicesapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/iothub/mgmt/2018-12-01-preview/devices"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/iothub/mgmt/2018-12-01-preview/devices"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

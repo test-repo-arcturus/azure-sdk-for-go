@@ -19,9 +19,9 @@ package sqlapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/sql/mgmt/2017-10-01-preview/sql"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/sql/mgmt/2017-10-01-preview/sql"
 )
 
 // DatabaseOperationsClientAPI contains the set of methods on the DatabaseOperationsClient type.

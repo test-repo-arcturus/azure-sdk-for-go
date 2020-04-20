@@ -19,8 +19,8 @@ package containerregistryapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/containerregistry/runtime/2019-07/containerregistry"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/containerregistry/runtime/2019-07/containerregistry"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

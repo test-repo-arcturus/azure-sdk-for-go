@@ -19,8 +19,8 @@ package managedapplicationsapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-07-01/managedapplications"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-07-01/managedapplications"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

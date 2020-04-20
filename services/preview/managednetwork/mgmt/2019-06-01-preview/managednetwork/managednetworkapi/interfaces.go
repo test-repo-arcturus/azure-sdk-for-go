@@ -19,8 +19,8 @@ package managednetworkapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/managednetwork/mgmt/2019-06-01-preview/managednetwork"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/managednetwork/mgmt/2019-06-01-preview/managednetwork"
 )
 
 // ManagedNetworksClientAPI contains the set of methods on the ManagedNetworksClient type.

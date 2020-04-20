@@ -19,8 +19,8 @@ package locksapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2015-01-01/locks"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2015-01-01/locks"
 )
 
 // ManagementLocksClientAPI contains the set of methods on the ManagementLocksClient type.

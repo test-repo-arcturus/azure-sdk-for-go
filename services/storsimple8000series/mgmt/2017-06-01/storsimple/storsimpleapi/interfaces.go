@@ -19,8 +19,8 @@ package storsimpleapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storsimple8000series/mgmt/2017-06-01/storsimple"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storsimple8000series/mgmt/2017-06-01/storsimple"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

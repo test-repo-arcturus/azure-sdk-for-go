@@ -19,8 +19,8 @@ package catalogapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2015-10-01-preview/catalog"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2015-10-01-preview/catalog"
 )
 
 // ClientAPI contains the set of methods on the Client type.

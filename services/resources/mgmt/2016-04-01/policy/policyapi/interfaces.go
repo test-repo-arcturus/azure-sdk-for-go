@@ -19,8 +19,8 @@ package policyapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-04-01/policy"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2016-04-01/policy"
 )
 
 // AssignmentsClientAPI contains the set of methods on the AssignmentsClient type.

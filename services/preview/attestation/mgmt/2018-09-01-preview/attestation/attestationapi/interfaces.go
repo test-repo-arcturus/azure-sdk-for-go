@@ -19,8 +19,8 @@ package attestationapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/attestation/mgmt/2018-09-01-preview/attestation"
 	"github.com/Azure/go-autorest/autorest"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/attestation/mgmt/2018-09-01-preview/attestation"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

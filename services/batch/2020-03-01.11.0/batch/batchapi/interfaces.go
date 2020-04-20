@@ -19,10 +19,10 @@ package batchapi
 
 import (
 	"context"
-	"github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/2020-03-01.11.0/batch"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
 	"github.com/satori/go.uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/2020-03-01.11.0/batch"
 )
 
 // ApplicationClientAPI contains the set of methods on the ApplicationClient type.
