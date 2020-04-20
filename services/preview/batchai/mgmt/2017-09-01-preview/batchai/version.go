@@ -1,6 +1,6 @@
 package batchai
 
-import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
+
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //
@@ -21,10 +21,12 @@ import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
 
 // UserAgent returns the UserAgent string to use when sending http.Requests.
 func UserAgent() string {
-	return "Azure-SDK-For-Go/" + version.Number + " batchai/2017-09-01-preview"
+	return "Azure-SDK-For-Go/" + Version() + " batchai/2017-09-01-preview"
 }
 
 // Version returns the semantic version (see http://semver.org) of the client.
 func Version() string {
-	return version.Number
+	return "0.0.0"
 }
+
+// tag: services/preview/batchai/mgmt/2017-09-01-preview/batchai/v0.0.0

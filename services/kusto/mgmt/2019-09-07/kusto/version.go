@@ -1,6 +1,6 @@
 package kusto
 
-import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
+
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //
@@ -21,10 +21,12 @@ import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
 
 // UserAgent returns the UserAgent string to use when sending http.Requests.
 func UserAgent() string {
-	return "Azure-SDK-For-Go/" + version.Number + " kusto/2019-09-07"
+	return "Azure-SDK-For-Go/" + Version() + " kusto/2019-09-07"
 }
 
 // Version returns the semantic version (see http://semver.org) of the client.
 func Version() string {
-	return version.Number
+	return "1.0.0"
 }
+
+// tag: services/kusto/mgmt/2019-09-07/kusto/v1.0.0

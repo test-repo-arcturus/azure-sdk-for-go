@@ -1,6 +1,6 @@
 package analysisservices
 
-import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
+
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //
@@ -21,10 +21,12 @@ import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
 
 // UserAgent returns the UserAgent string to use when sending http.Requests.
 func UserAgent() string {
-	return "Azure-SDK-For-Go/" + version.Number + " analysisservices/2016-05-16"
+	return "Azure-SDK-For-Go/" + Version() + " analysisservices/2016-05-16"
 }
 
 // Version returns the semantic version (see http://semver.org) of the client.
 func Version() string {
-	return version.Number
+	return "1.0.0"
 }
+
+// tag: services/analysisservices/mgmt/2016-05-16/analysisservices/v1.0.0

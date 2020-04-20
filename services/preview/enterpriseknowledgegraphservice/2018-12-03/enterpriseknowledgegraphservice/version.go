@@ -1,6 +1,6 @@
 package enterpriseknowledgegraphservice
 
-import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
+
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //
@@ -21,10 +21,12 @@ import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
 
 // UserAgent returns the UserAgent string to use when sending http.Requests.
 func UserAgent() string {
-	return "Azure-SDK-For-Go/" + version.Number + " enterpriseknowledgegraphservice/2018-12-03"
+	return "Azure-SDK-For-Go/" + Version() + " enterpriseknowledgegraphservice/2018-12-03"
 }
 
 // Version returns the semantic version (see http://semver.org) of the client.
 func Version() string {
-	return version.Number
+	return "0.0.0"
 }
+
+// tag: services/preview/enterpriseknowledgegraphservice/2018-12-03/enterpriseknowledgegraphservice/v0.0.0
