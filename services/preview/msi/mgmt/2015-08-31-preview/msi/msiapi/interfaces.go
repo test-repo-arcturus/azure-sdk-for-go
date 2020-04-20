@@ -19,7 +19,7 @@ package msiapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/msi/mgmt/2015-08-31-preview/msi"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/msi/mgmt/2015-08-31-preview/msi"
 	"github.com/Azure/go-autorest/autorest"
 )
 

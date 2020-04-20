@@ -19,7 +19,7 @@ package workloadmonitorapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/workloadmonitor/mgmt/2018-08-31-preview/workloadmonitor"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/workloadmonitor/mgmt/2018-08-31-preview/workloadmonitor"
 	"github.com/satori/go.uuid"
 )
 

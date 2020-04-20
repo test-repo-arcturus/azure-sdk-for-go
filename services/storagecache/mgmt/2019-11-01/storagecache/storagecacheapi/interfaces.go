@@ -19,7 +19,7 @@ package storagecacheapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/storagecache/mgmt/2019-11-01/storagecache"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storagecache/mgmt/2019-11-01/storagecache"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

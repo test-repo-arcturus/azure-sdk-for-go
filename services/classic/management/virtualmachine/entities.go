@@ -19,8 +19,8 @@ package virtualmachine
 import (
 	"encoding/xml"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
-	vmdisk "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachinedisk"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
+	vmdisk "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachinedisk"
 )
 
 // VirtualMachineClient is used to perform operations on Azure Virtual Machines

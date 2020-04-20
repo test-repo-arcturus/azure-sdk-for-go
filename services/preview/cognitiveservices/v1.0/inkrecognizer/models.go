@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/inkrecognizer"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/inkrecognizer"
 
 // Application enumerates the values for application.
 type Application string

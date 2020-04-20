@@ -19,7 +19,7 @@ package operationalinsightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/operationalinsights/v1/operationalinsights"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/operationalinsights/v1/operationalinsights"
 )
 
 // QueryClientAPI contains the set of methods on the QueryClient type.

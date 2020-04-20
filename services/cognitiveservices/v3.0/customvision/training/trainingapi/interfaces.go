@@ -19,7 +19,7 @@ package trainingapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v3.0/customvision/training"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v3.0/customvision/training"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 	"io"

@@ -19,7 +19,7 @@ package postgresqlapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/postgresql/mgmt/2017-12-01/postgresql"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/postgresql/mgmt/2017-12-01/postgresql"
 )
 
 // ServersClientAPI contains the set of methods on the ServersClient type.

@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2019-07-01/managedapplications"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-07-01/managedapplications"
 
 // ApplicationArtifactName enumerates the values for application artifact name.
 type ApplicationArtifactName string

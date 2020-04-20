@@ -19,7 +19,7 @@ package computervisionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.1/computervision"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v2.1/computervision"
 	"github.com/Azure/go-autorest/autorest"
 	"io"
 )

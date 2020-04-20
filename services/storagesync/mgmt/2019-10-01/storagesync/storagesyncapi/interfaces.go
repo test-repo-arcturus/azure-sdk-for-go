@@ -19,7 +19,7 @@ package storagesyncapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/storagesync/mgmt/2019-10-01/storagesync"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storagesync/mgmt/2019-10-01/storagesync"
 	"github.com/Azure/go-autorest/autorest"
 )
 

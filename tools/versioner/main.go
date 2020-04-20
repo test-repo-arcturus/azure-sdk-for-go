@@ -17,7 +17,7 @@ package main
 import (
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/tools/versioner/cmd"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/versioner/cmd"
 )
 
 func main() {

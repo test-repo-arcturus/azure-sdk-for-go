@@ -13,7 +13,7 @@
     "../../services/resources/mgmt/2016-06-01/subscriptions"
   ],
   "pathOverride": {
-    "github.com/Azure/azure-sdk-for-go/services/preview/resources/mgmt/2015-10-01-preview/policy": "resources/mgmt/policy",
-    "github.com/Azure/azure-sdk-for-go/services/preview/resources/mgmt/2015-10-01-preview/policy/policyapi": "resources/mgmt/policy/policyapi"
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resources/mgmt/2015-10-01-preview/policy": "resources/mgmt/policy",
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resources/mgmt/2015-10-01-preview/policy/policyapi": "resources/mgmt/policy/policyapi"
   }
 }

@@ -19,7 +19,7 @@ package alertsmanagementapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/alertsmanagement/mgmt/2019-03-01/alertsmanagement"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/alertsmanagement/mgmt/2019-03-01/alertsmanagement"
 	"github.com/Azure/go-autorest/autorest"
 )
 

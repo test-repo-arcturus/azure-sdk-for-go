@@ -19,7 +19,7 @@ package managednetworkapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/managednetwork/mgmt/2019-06-01-preview/managednetwork"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/managednetwork/mgmt/2019-06-01-preview/managednetwork"
 	"github.com/Azure/go-autorest/autorest"
 )
 

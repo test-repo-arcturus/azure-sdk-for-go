@@ -19,7 +19,7 @@ package entitysearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/entitysearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/entitysearch"
 )
 
 // EntitiesClientAPI contains the set of methods on the EntitiesClient type.

@@ -19,7 +19,7 @@ package anomalydetectorapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/anomalydetector"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/anomalydetector"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

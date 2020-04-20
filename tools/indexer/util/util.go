@@ -55,7 +55,7 @@ func GetIndexedPackages(content io.Reader) (PackageSet, error) {
 }
 
 // GetPackagesForIndexing returns the set of packages, calculated from the specified directory, to be indexed.
-// Each directory entry is converted to a complete package path, e.g. "github.com/Azure/azure-sdk-for-go/services/foo/...".
+// Each directory entry is converted to a complete package path, e.g. "github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/...".
 func GetPackagesForIndexing(dir string) (PackageSet, error) {
 	leafDirs := []string{}
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {

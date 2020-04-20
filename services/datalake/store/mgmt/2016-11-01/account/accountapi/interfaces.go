@@ -19,7 +19,7 @@ package accountapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/datalake/store/mgmt/2016-11-01/account"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/datalake/store/mgmt/2016-11-01/account"
 	"github.com/Azure/go-autorest/autorest"
 )
 

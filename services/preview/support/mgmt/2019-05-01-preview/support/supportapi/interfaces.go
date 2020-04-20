@@ -19,7 +19,7 @@ package supportapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/support/mgmt/2019-05-01-preview/support"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/support/mgmt/2019-05-01-preview/support"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

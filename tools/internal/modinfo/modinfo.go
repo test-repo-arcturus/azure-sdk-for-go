@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/delta"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/exports"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/report"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/dirs"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/delta"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/exports"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/report"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/dirs"
 	"github.com/Masterminds/semver"
 )
 
@@ -93,8 +93,8 @@ func sortModuleTagsBySemver(modDirs []string) {
 
 // CreateModuleNameFromPath creates a module name from the provided path.
 func CreateModuleNameFromPath(pkgDir string) (string, error) {
-	// e.g. /work/src/github.com/Azure/azure-sdk-for-go/services/foo/2019-01-01/foo
-	// returns github.com/Azure/azure-sdk-for-go/services/foo/2019-01-01/foo
+	// e.g. /work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/2019-01-01/foo
+	// returns github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/2019-01-01/foo
 	repoRoot := filepath.Join("github.com", "Azure", "azure-sdk-for-go")
 	i := strings.Index(pkgDir, repoRoot)
 	if i < 0 {

@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/ioext"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/report"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/ioext"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/report"
 )
 
 func printf(format string, a ...interface{}) {

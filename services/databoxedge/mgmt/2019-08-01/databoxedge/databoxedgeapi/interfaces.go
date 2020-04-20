@@ -19,7 +19,7 @@ package databoxedgeapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/databoxedge/mgmt/2019-08-01/databoxedge"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/databoxedge/mgmt/2019-08-01/databoxedge"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

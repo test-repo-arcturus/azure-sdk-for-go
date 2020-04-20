@@ -24,21 +24,21 @@ scattered throughout the consumer's code.
 The simplest version of installation is very easy but not stable, just run the following command:
 
 ``` bash
-go get -u github.com/Azure/azure-sdk-for-go/tools/profileBuilder
+go get -u github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder
 ```
 
 If that causes you trouble, run the following commands:
 
 ``` bash
 # bash
-go get -d github.com/Azure/azure-sdk-for-go/tools/profileBuilder
-cd $GOPATH/src/github.com/Azure/azure-sdk-for-go/tools/profileBuilder
+go get -d github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder
+cd $GOPATH/src/github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder
 go install
 ```
 
 ``` PowerShell
 # PowerShell
-go get -d github.com/Azure/azure-sdk-for-go/tools/profileBuilder
+go get -d github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder
 cd $env:GOPATH\src\github.com\Azure\azure-sdk-for-go\tools\profileBuilder
 go install
 ```
@@ -51,8 +51,8 @@ For the first example, we'll use the `list` sub-command without any commands. It
 
 ``` bash
 $> profileBuilder list
-github.com/Azure/azure-sdk-for-go/services/logic/mgmt/2016-06-01/logic
-github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2017-02-01/redis
+github.com/test-repo-arcturus/azure-sdk-for-go/services/logic/mgmt/2016-06-01/logic
+github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2017-02-01/redis
 ```
 
 Because we didn't specify a name for this profile, a random one will be generated. Assuming that it chooses the name `YellowIceberg84`, the files that would be produced would be in the structure:
@@ -83,8 +83,8 @@ Clearly, typing each package name on demand, as profiles needs to be generated i
 
 ```
 <myProfileDefinition.txt>
-github.com/Azure/azure-sdk-for-go/services/logic/mgmt/2016-06-01/logic
-github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2017-02-01/redis
+github.com/test-repo-arcturus/azure-sdk-for-go/services/logic/mgmt/2016-06-01/logic
+github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2017-02-01/redis
 ```
 
 Will allow for the command:
@@ -139,7 +139,7 @@ You can opt-to not have `profileBuilder` use a randomly generated name for your 
 |--------------|--------------------------------------------------------|
 | Long Form    | --output-location                                      |
 | Short Form   | -n                                                     |
-| Default      | $GOPATH/src/github.com/Azure/azure-sdk-for-go/profiles |
+| Default      | $GOPATH/src/github.com/test-repo-arcturus/azure-sdk-for-go/profiles |
 | Sub-Commands | list, latest                                           |
 
 The directory that profileBuilder should use to write the profile that is created.

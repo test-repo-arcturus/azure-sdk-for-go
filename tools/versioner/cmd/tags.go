@@ -20,8 +20,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/modinfo"
 	"github.com/Masterminds/semver"
 )
 
@@ -157,9 +157,9 @@ func getTags(repoPath, tagPrefix string) ([]string, error) {
 }
 
 // returns the tag prefix for the specified package.
-// assumes repo root of github.com/Azure/azure-sdk-for-go/
+// assumes repo root of github.com/test-repo-arcturus/azure-sdk-for-go/
 func getTagPrefix(pkgDir, repoRoot string) (string, error) {
-	// e.g. /work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// e.g. /work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	// would return services/redis/mgmt/2018-03-01/redis/v2
 	pkgDir = strings.ReplaceAll(pkgDir, "\\", "/")
 	i := strings.Index(pkgDir, repoRoot)

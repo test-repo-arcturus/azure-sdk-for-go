@@ -19,7 +19,7 @@ package textanalyticsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.0/textanalytics"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v2.0/textanalytics"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

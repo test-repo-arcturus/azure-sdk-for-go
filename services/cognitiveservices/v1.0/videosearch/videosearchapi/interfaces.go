@@ -19,7 +19,7 @@ package videosearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/videosearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/videosearch"
 )
 
 // VideosClientAPI contains the set of methods on the VideosClient type.

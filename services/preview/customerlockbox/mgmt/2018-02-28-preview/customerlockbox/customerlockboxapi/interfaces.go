@@ -19,7 +19,7 @@ package customerlockboxapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/customerlockbox/mgmt/2018-02-28-preview/customerlockbox"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/customerlockbox/mgmt/2018-02-28-preview/customerlockbox"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

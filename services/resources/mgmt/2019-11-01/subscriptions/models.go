@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2019-11-01/subscriptions"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-11-01/subscriptions"
 
 // RegionCategory enumerates the values for region category.
 type RegionCategory string

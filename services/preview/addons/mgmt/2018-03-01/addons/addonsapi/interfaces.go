@@ -19,7 +19,7 @@ package addonsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/addons/mgmt/2018-03-01/addons"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/addons/mgmt/2018-03-01/addons"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

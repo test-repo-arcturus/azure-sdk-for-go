@@ -19,7 +19,7 @@ package signalrapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/signalr/mgmt/2018-03-01-preview/signalr"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/signalr/mgmt/2018-03-01-preview/signalr"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

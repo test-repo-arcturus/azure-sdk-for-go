@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/datashare/mgmt/2019-11-01/datashare"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/datashare/mgmt/2019-11-01/datashare"
 
 // DataSetMappingStatus enumerates the values for data set mapping status.
 type DataSetMappingStatus string

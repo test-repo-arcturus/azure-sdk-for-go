@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/costmanagement/mgmt/2019-01-01/costmanagement"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2019-01-01/costmanagement"
 
 // ExecutionStatus enumerates the values for execution status.
 type ExecutionStatus string

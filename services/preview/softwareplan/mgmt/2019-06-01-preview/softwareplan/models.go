@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/softwareplan/mgmt/2019-06-01-preview/softwareplan"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/softwareplan/mgmt/2019-06-01-preview/softwareplan"
 
 // ErrorCode enumerates the values for error code.
 type ErrorCode string

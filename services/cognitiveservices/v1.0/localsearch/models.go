@@ -23,7 +23,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/localsearch"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/localsearch"
 
 // EntityScenario enumerates the values for entity scenario.
 type EntityScenario string

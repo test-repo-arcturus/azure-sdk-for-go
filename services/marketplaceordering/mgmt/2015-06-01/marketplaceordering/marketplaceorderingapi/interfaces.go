@@ -19,7 +19,7 @@ package marketplaceorderingapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/marketplaceordering/mgmt/2015-06-01/marketplaceordering"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/marketplaceordering/mgmt/2015-06-01/marketplaceordering"
 )
 
 // MarketplaceAgreementsClientAPI contains the set of methods on the MarketplaceAgreementsClient type.

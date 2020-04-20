@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/profileBuilder/model"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder/model"
 )
 
 func Test_updateModuleVersions(t *testing.T) {

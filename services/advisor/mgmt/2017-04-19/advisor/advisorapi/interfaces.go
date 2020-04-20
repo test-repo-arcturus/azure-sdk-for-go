@@ -19,7 +19,7 @@ package advisorapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/advisor/mgmt/2017-04-19/advisor"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/advisor/mgmt/2017-04-19/advisor"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 )

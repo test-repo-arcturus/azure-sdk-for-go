@@ -19,7 +19,7 @@ package hostedservice
 import (
 	"encoding/xml"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
 )
 
 //HostedServiceClient is used to perform operations on Azure Hosted Services

@@ -19,7 +19,7 @@ package computeapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2016-03-30/compute"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/compute/mgmt/2016-03-30/compute"
 )
 
 // AvailabilitySetsClientAPI contains the set of methods on the AvailabilitySetsClient type.

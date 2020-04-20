@@ -19,7 +19,7 @@ package deploymentmanagerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/deploymentmanager/mgmt/2019-11-01-preview/deploymentmanager"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/deploymentmanager/mgmt/2019-11-01-preview/deploymentmanager"
 	"github.com/Azure/go-autorest/autorest"
 )
 

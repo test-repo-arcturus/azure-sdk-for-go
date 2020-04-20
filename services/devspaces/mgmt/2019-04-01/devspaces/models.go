@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/devspaces/mgmt/2019-04-01/devspaces"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/devspaces/mgmt/2019-04-01/devspaces"
 
 // InstanceType enumerates the values for instance type.
 type InstanceType string

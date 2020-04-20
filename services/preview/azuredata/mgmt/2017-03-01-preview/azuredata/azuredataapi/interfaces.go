@@ -19,7 +19,7 @@ package azuredataapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
 	"github.com/Azure/go-autorest/autorest"
 )
 

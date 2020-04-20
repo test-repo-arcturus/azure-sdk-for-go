@@ -19,7 +19,7 @@ package digitaltwinsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
 )
 
 // ClientAPI contains the set of methods on the Client type.

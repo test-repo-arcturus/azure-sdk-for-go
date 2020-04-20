@@ -19,7 +19,7 @@ package siterecoveryapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/recoveryservices/mgmt/2018-07-10/siterecovery"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2018-07-10/siterecovery"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

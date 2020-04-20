@@ -19,7 +19,7 @@ package apimanagementapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/apimanagement/mgmt/2016-07-07/apimanagement"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/apimanagement/mgmt/2016-07-07/apimanagement"
 	"github.com/Azure/go-autorest/autorest"
 )
 

@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/log"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/log"
 	"github.com/spf13/cobra"
 )
 

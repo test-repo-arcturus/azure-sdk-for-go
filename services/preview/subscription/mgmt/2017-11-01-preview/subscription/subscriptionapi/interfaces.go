@@ -19,7 +19,7 @@ package subscriptionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/subscription/mgmt/2017-11-01-preview/subscription"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/subscription/mgmt/2017-11-01-preview/subscription"
 	"github.com/satori/go.uuid"
 )
 

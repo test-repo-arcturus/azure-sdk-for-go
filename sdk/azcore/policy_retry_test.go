@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/sdk/internal/mock"
 )
 
 func testRetryOptions() *RetryOptions {

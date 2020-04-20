@@ -19,7 +19,7 @@ package alertsmanagementapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/alertsmanagement/mgmt/2018-05-05-preview/alertsmanagement"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/alertsmanagement/mgmt/2018-05-05-preview/alertsmanagement"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

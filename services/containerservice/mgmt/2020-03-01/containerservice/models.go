@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/containerservice/mgmt/2020-03-01/containerservice"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/containerservice/mgmt/2020-03-01/containerservice"
 
 // AgentPoolMode enumerates the values for agent pool mode.
 type AgentPoolMode string

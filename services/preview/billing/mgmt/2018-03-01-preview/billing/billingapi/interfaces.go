@@ -19,7 +19,7 @@ package billingapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/billing/mgmt/2018-03-01-preview/billing"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/billing/mgmt/2018-03-01-preview/billing"
 )
 
 // EnrollmentAccountsClientAPI contains the set of methods on the EnrollmentAccountsClient type.

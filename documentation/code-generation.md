@@ -9,26 +9,26 @@
 1. Call autorest with the following arguments...
 
 ``` cmd
-autorest path/to/readme/file --go --go-sdk-folder=<your/gopath/src/github.com/Azure/azure-sdk-for-go> --package-version=<version> --user-agent=<Azure-SDK-For-Go/version services> [--tag=choose/a/tag/in/the/readme/file]
+autorest path/to/readme/file --go --go-sdk-folder=<your/gopath/src/github.com/test-repo-arcturus/azure-sdk-for-go> --package-version=<version> --user-agent=<Azure-SDK-For-Go/version services> [--tag=choose/a/tag/in/the/readme/file]
 ```
 
 For example...
 
 ``` cmd
-autorest C:/azure-rest-api-specs/specification/advisor/resource-manager/readme.md --go --go-sdk-folder=C:/goWorkspace/src/github.com/Azure/azure-sdk-for-go --tag=package-2016-07-preview --package-version=v11.2.0-beta --user-agent='Azure-SDK-For-Go/v11.2.0-beta services'
+autorest C:/azure-rest-api-specs/specification/advisor/resource-manager/readme.md --go --go-sdk-folder=C:/goWorkspace/src/github.com/test-repo-arcturus/azure-sdk-for-go --tag=package-2016-07-preview --package-version=v11.2.0-beta --user-agent='Azure-SDK-For-Go/v11.2.0-beta services'
 ```
 
 - If you are looking to generate code based on a specific swagger file, you can replace `path/to/readme/file` with `--input-file=path/to/swagger/file`.
 - If the readme file you want to use as input does not have golang tags yet, you can call autorest like this...
 
 ``` cmd
-autorest path/to/readme/file --go --license-header=<MICROSOFT_APACHE_NO_VERSION> --namespace=<packageName> --output-folder=<your/gopath/src/github.com/Azure/azure-sdk-for-go/services/serviceName/mgmt/APIversion/packageName> --package-version=<version> --user-agent=<Azure-SDK-For-Go/version services> --clear-output-folder --can-clear-output-folder --tag=<choose/a/tag/in/the/readme/file>
+autorest path/to/readme/file --go --license-header=<MICROSOFT_APACHE_NO_VERSION> --namespace=<packageName> --output-folder=<your/gopath/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/serviceName/mgmt/APIversion/packageName> --package-version=<version> --user-agent=<Azure-SDK-For-Go/version services> --clear-output-folder --can-clear-output-folder --tag=<choose/a/tag/in/the/readme/file>
 ```
 
 For example...
 
 ``` cmd
-autorest --input-file=https://raw.githubusercontent.com/Azure/azure-rest-api-specs/current/specification/network/resource-manager/Microsoft.Network/2017-10-01/loadBalancer.json --go --license-header=MICROSOFT_APACHE_NO_VERSION --namespace=lb --output-folder=C:/goWorkspace/src/github.com/Azure/azure-sdk-for-go/services/network/mgmt/2017-09-01/network/lb --package-version=v11.2.0-beta --clear-output-folder --can-clear-output-folder
+autorest --input-file=https://raw.githubusercontent.com/Azure/azure-rest-api-specs/current/specification/network/resource-manager/Microsoft.Network/2017-10-01/loadBalancer.json --go --license-header=MICROSOFT_APACHE_NO_VERSION --namespace=lb --output-folder=C:/goWorkspace/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/network/mgmt/2017-09-01/network/lb --package-version=v11.2.0-beta --clear-output-folder --can-clear-output-folder
 ```
 
 1. Run `go fmt` on the generated package folder.

@@ -19,7 +19,7 @@ package qnamakerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
 	"github.com/Azure/go-autorest/autorest"
 )
 

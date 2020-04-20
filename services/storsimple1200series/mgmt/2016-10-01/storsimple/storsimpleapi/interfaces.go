@@ -19,7 +19,7 @@ package storsimpleapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/storsimple1200series/mgmt/2016-10-01/storsimple"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/storsimple1200series/mgmt/2016-10-01/storsimple"
 	"github.com/Azure/go-autorest/autorest"
 )
 

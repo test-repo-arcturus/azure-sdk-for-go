@@ -19,7 +19,7 @@ package appplatformapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/appplatform/mgmt/2019-05-01-preview/appplatform"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appplatform/mgmt/2019-05-01-preview/appplatform"
 	"github.com/Azure/go-autorest/autorest"
 )
 

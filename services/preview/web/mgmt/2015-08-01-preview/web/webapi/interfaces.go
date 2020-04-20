@@ -19,7 +19,7 @@ package webapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/web/mgmt/2015-08-01-preview/web"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/web/mgmt/2015-08-01-preview/web"
 	"github.com/Azure/go-autorest/autorest"
 )
 

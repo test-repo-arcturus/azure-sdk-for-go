@@ -14,7 +14,7 @@
 
 package fooapi
 
-import "github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioh/foo/mgmt/2019-10-11/foo"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioh/foo/mgmt/2019-10-11/foo"
 
 // GatewaysClientAPI ...
 type GatewaysClientAPI interface {

@@ -19,7 +19,7 @@ package localsearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/localsearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/localsearch"
 )
 
 // LocalClientAPI contains the set of methods on the LocalClient type.

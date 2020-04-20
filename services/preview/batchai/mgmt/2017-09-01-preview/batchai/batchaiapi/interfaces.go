@@ -19,7 +19,7 @@ package batchaiapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/batchai/mgmt/2017-09-01-preview/batchai"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/batchai/mgmt/2017-09-01-preview/batchai"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

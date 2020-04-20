@@ -19,7 +19,7 @@ package formrecognizerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/formrecognizer"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/formrecognizer"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 	"io"

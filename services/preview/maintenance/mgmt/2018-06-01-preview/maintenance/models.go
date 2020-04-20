@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/maintenance/mgmt/2018-06-01-preview/maintenance"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/maintenance/mgmt/2018-06-01-preview/maintenance"
 
 // ImpactType enumerates the values for impact type.
 type ImpactType string

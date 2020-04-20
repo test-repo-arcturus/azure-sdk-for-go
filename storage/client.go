@@ -34,7 +34,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/version"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/version"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/azure"
 )
@@ -741,7 +741,7 @@ func (c Client) exec(verb, url string, headers map[string]string, body io.Reader
 	}
 
 	for k, v := range headers {
-		req.Header[k] = append(req.Header[k], v) // Must bypass case munging present in `Add` by using map functions directly. See https://github.com/Azure/azure-sdk-for-go/issues/645
+		req.Header[k] = append(req.Header[k], v) // Must bypass case munging present in `Add` by using map functions directly. See https://github.com/test-repo-arcturus/azure-sdk-for-go/issues/645
 	}
 
 	if c.isAccountSASClient() {

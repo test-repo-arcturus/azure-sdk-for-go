@@ -19,7 +19,7 @@ package batchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/batch/2018-08-01.7.0/batch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/2018-08-01.7.0/batch"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
 	"github.com/satori/go.uuid"

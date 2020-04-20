@@ -17,7 +17,7 @@ package delta
 import (
 	"sort"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/exports"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/exports"
 )
 
 // Content defines the set of exported constants, funcs, and structs.

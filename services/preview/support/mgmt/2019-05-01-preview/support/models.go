@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/support/mgmt/2019-05-01-preview/support"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/support/mgmt/2019-05-01-preview/support"
 
 // CommunicationDirection enumerates the values for communication direction.
 type CommunicationDirection string

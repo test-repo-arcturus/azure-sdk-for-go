@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/versioner/cmd"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/versioner/cmd"
 )
 
 var (
@@ -85,7 +85,7 @@ var (
 )
 
 func prepareTestData(root string, tagsHook cmd.TagsHookFunc) error {
-	const repoRoot = "github.com/Azure/azure-sdk-for-go"
+	const repoRoot = "github.com/test-repo-arcturus/azure-sdk-for-go"
 	if _, err := cmd.ExecuteVersioner(root, repoRoot, defaultVersion, tagsHook); err != nil {
 		return fmt.Errorf("failed to prepare test data: %+v", err)
 	}

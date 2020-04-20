@@ -70,23 +70,23 @@ func TestLatestTrackerAPIVer(t *testing.T) {
 	}
 	tests := []tc{
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-01-01/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-01-01/abc",
 			result: 1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2018-05-11/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2018-05-11/abc",
 			result: -1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-07-13/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-07-13/abc",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2015-03-01/def",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2015-03-01/def",
 			result: 1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def",
 			result: 0,
 		},
 	}
@@ -109,8 +109,8 @@ func TestLatestTrackerAPIVer(t *testing.T) {
 		t.Fatalf("failed to get list definition: %v", err)
 	}
 	expected := []string{
-		"/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-07-13/abc",
-		"/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def",
+		"/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-07-13/abc",
+		"/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def",
 	}
 	if !reflect.DeepEqual(ld.Include, expected) {
 		t.Fatalf("bad results, got '%s' expected '%s'", ld.Include, expected)
@@ -124,43 +124,43 @@ func TestLatestTrackerModVer(t *testing.T) {
 	}
 	tests := []tc{
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-01-01/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-01-01/abc",
 			result: 1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2018-05-11/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2018-05-11/abc",
 			result: -1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-01-01/abc/v2",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-01-01/abc/v2",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-07-13/abc",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-07-13/abc",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-07-13/abc/v2",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-07-13/abc/v2",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2015-03-01/def",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2015-03-01/def",
 			result: 1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2015-03-01/def/v2",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2015-03-01/def/v2",
 			result: -1,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def/v2",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def/v2",
 			result: 0,
 		},
 		{
-			input:  "/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def/v3",
+			input:  "/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def/v3",
 			result: 0,
 		},
 	}
@@ -183,8 +183,8 @@ func TestLatestTrackerModVer(t *testing.T) {
 		t.Fatalf("failed to get list definition: %v", err)
 	}
 	expected := []string{
-		"/work/src/github.com/Azure/azure-sdk-for-go/services/abc/2019-07-13/abc/v2",
-		"/work/src/github.com/Azure/azure-sdk-for-go/services/def/2017-10-01/def/v3",
+		"/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/abc/2019-07-13/abc/v2",
+		"/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/def/2017-10-01/def/v3",
 	}
 	if !reflect.DeepEqual(ld.Include, expected) {
 		t.Fatalf("bad results, got '%s' expected '%s'", ld.Include, expected)

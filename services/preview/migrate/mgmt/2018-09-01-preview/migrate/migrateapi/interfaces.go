@@ -19,7 +19,7 @@ package migrateapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/migrate/mgmt/2018-09-01-preview/migrate"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/migrate/mgmt/2018-09-01-preview/migrate"
 	"github.com/Azure/go-autorest/autorest"
 )
 

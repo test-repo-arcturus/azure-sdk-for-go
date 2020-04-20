@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 
 // ConsentType enumerates the values for consent type.
 type ConsentType string

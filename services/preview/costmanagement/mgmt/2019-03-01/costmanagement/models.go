@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/costmanagement/mgmt/2019-03-01/costmanagement"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/costmanagement/mgmt/2019-03-01/costmanagement"
 
 // ConnectorBillingModel enumerates the values for connector billing model.
 type ConnectorBillingModel string

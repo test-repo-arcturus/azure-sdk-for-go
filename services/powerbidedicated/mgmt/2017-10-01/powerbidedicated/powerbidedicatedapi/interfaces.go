@@ -19,7 +19,7 @@ package powerbidedicatedapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/powerbidedicated/mgmt/2017-10-01/powerbidedicated"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/powerbidedicated/mgmt/2017-10-01/powerbidedicated"
 )
 
 // CapacitiesClientAPI contains the set of methods on the CapacitiesClient type.

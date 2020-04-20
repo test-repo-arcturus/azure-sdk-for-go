@@ -17,7 +17,7 @@ package vmutils
 //    limitations under the License.
 
 import (
-	vm "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachine"
+	vm "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachine"
 )
 
 func updateOrAddConfig(configs []vm.ConfigurationSet, configType vm.ConfigurationSetType, update func(*vm.ConfigurationSet)) []vm.ConfigurationSet {

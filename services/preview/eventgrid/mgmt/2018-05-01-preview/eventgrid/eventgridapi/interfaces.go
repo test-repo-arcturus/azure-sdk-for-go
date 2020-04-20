@@ -19,7 +19,7 @@ package eventgridapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/eventgrid/mgmt/2018-05-01-preview/eventgrid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/eventgrid/mgmt/2018-05-01-preview/eventgrid"
 )
 
 // EventSubscriptionsClientAPI contains the set of methods on the EventSubscriptionsClient type.

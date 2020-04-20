@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/appconfiguration/mgmt/2019-02-01-preview/appconfiguration"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appconfiguration/mgmt/2019-02-01-preview/appconfiguration"
 
 // ProvisioningState enumerates the values for provisioning state.
 type ProvisioningState string

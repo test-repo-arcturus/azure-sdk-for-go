@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
 )
 
 // GetTestClient returns a management Client for testing. Expects

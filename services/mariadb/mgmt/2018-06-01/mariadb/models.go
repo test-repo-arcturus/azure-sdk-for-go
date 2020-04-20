@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/mariadb/mgmt/2018-06-01/mariadb"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/mariadb/mgmt/2018-06-01/mariadb"
 
 // CreateMode enumerates the values for create mode.
 type CreateMode string

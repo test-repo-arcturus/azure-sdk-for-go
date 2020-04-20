@@ -19,7 +19,7 @@ package sqlvirtualmachineapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/sqlvirtualmachine/mgmt/2017-03-01-preview/sqlvirtualmachine"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/sqlvirtualmachine/mgmt/2017-03-01-preview/sqlvirtualmachine"
 )
 
 // AvailabilityGroupListenersClientAPI contains the set of methods on the AvailabilityGroupListenersClient type.

@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/log"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/pkgs"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/log"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/pkgs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -122,7 +122,7 @@ func modifyVersionFile(root string, p pkgs.Pkg, tag, ver string) error {
 	}
 	content := string(b)
 	// remove the import clause
-	content = strings.Replace(content, `import "github.com/Azure/azure-sdk-for-go/version"`, "", 1)
+	content = strings.Replace(content, `import "github.com/test-repo-arcturus/azure-sdk-for-go/version"`, "", 1)
 	// replace the first `version.Number` to `Version()`
 	content = strings.Replace(content, "version.Number", "Version()", 1)
 	// replace the second `version.Number` to the value of ver

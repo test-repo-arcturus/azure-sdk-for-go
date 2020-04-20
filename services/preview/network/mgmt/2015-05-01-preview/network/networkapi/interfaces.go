@@ -19,7 +19,7 @@ package networkapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/network/mgmt/2015-05-01-preview/network"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/network/mgmt/2015-05-01-preview/network"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

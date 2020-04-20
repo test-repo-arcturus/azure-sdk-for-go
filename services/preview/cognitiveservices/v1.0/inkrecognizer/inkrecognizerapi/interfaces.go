@@ -19,7 +19,7 @@ package inkrecognizerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/inkrecognizer"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/inkrecognizer"
 )
 
 // ClientAPI contains the set of methods on the Client type.

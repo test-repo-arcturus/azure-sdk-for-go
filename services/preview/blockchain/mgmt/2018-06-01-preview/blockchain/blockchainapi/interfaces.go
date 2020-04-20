@@ -19,7 +19,7 @@ package blockchainapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/blockchain/mgmt/2018-06-01-preview/blockchain"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/blockchain/mgmt/2018-06-01-preview/blockchain"
 )
 
 // MembersClientAPI contains the set of methods on the MembersClient type.

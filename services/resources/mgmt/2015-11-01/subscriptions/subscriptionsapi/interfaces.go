@@ -19,7 +19,7 @@ package subscriptionsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2015-11-01/subscriptions"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2015-11-01/subscriptions"
 )
 
 // ClientAPI contains the set of methods on the Client type.

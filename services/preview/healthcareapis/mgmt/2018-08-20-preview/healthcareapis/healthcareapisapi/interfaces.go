@@ -19,7 +19,7 @@ package healthcareapisapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/healthcareapis/mgmt/2018-08-20-preview/healthcareapis"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/healthcareapis/mgmt/2018-08-20-preview/healthcareapis"
 )
 
 // ServicesClientAPI contains the set of methods on the ServicesClient type.

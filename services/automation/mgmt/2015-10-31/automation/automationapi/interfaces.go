@@ -19,7 +19,7 @@ package automationapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/automation/mgmt/2015-10-31/automation"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/automation/mgmt/2015-10-31/automation"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 	"io"

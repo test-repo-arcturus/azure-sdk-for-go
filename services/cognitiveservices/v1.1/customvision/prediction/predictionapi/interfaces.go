@@ -19,7 +19,7 @@ package predictionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.1/customvision/prediction"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.1/customvision/prediction"
 	"github.com/satori/go.uuid"
 	"io"
 )

@@ -16,11 +16,11 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/modinfo"
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/log"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
@@ -69,7 +69,7 @@ The default version for new modules is v1.0.0 or the value specified for [initia
 	if err := viper.BindPFlag("quiet", pFlags.Lookup("quiet")); err != nil {
 		log.Fatalf("failed to bind flag: %+v", err)
 	}
-	pFlags.String("gomod-root", "github.com/Azure/azure-sdk-for-go", "root path of the modules")
+	pFlags.String("gomod-root", "github.com/test-repo-arcturus/azure-sdk-for-go", "root path of the modules")
 	if err := viper.BindPFlag("gomod-root", pFlags.Lookup("gomod-root")); err != nil {
 		log.Fatalf("failed to bind flag: %+v", err)
 	}

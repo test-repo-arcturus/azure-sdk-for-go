@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/sql/mgmt/2014-04-01/sql"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/sql/mgmt/2014-04-01/sql"
 
 // AdvisorStatus enumerates the values for advisor status.
 type AdvisorStatus string

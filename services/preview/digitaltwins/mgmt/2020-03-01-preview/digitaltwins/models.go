@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
 
 // EndpointProvisioningState enumerates the values for endpoint provisioning state.
 type EndpointProvisioningState string

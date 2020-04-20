@@ -19,7 +19,7 @@ package trafficmanagerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/trafficmanager/mgmt/2015-11-01/trafficmanager"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/trafficmanager/mgmt/2015-11-01/trafficmanager"
 	"github.com/Azure/go-autorest/autorest"
 )
 

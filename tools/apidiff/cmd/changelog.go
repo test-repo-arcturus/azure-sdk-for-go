@@ -122,7 +122,7 @@ type tableRow struct {
 func createTableRows(pkgs []string) []tableRow {
 	entries := map[string][]string{}
 	for _, pkg := range pkgs {
-		// contains entries like "github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2018-08-31/consumption"
+		// contains entries like "github.com/test-repo-arcturus/azure-sdk-for-go/services/consumption/mgmt/2018-08-31/consumption"
 		i := strings.LastIndex(pkg, "/")
 		pkgName := pkg[i+1:]
 		j := strings.LastIndex(pkg[:i], "/")

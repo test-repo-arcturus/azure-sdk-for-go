@@ -19,7 +19,7 @@ package dnsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/dns/mgmt/2018-03-01-preview/dns"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/dns/mgmt/2018-03-01-preview/dns"
 	"github.com/Azure/go-autorest/autorest"
 )
 

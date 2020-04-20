@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/report"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/report"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/modinfo"
 )
 
 func Test_getTags(t *testing.T) {
@@ -67,7 +67,7 @@ func Test_getTagPrefix(t *testing.T) {
 		},
 	}
 
-	const repoRoot = "github.com/Azure/azure-sdk-for-go"
+	const repoRoot = "github.com/test-repo-arcturus/azure-sdk-for-go"
 
 	for _, c := range testData {
 		p, err := getTagPrefix(c.dir, repoRoot)
@@ -264,7 +264,7 @@ func TestCalculateModuleTag(t *testing.T) {
 		},
 	}
 
-	const repoRoot = "github.com/Azure/azure-sdk-for-go"
+	const repoRoot = "github.com/test-repo-arcturus/azure-sdk-for-go"
 
 	for _, c := range testData {
 		t.Logf("Testing %s", c.name)
@@ -294,57 +294,57 @@ func TestGetLatestSemver(t *testing.T) {
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
 			},
 			tagPrefix: "services/foo",
 			expected: "1.0.0",
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.1.0",
 			},
 			tagPrefix: "services/foo",
 			expected: "1.1.0",
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.1.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.0",
 			},
 			tagPrefix: "services/foo",
 			expected: "2.0.0",
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.1.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.1",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.1",
 			},
 			tagPrefix: "services/foo",
 			expected: "2.0.1",
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.1.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.1",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.1",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.1.0",
 			},
 			tagPrefix: "services/foo",
 			expected: "2.1.0",
 		},
 		{
 			tags: []string{
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v1.1.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.0.1",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v2.1.0",
-				"github.com/Azure/azure-sdk-for-go/services/foo/v3.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v1.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.0.1",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v2.1.0",
+				"github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/v3.0.0",
 			},
 			tagPrefix: "services/foo",
 			expected: "3.0.0",

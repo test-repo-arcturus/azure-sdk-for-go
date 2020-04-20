@@ -19,7 +19,7 @@ package kustoapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/kusto/mgmt/2019-11-09/kusto"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/kusto/mgmt/2019-11-09/kusto"
 )
 
 // ClustersClientAPI contains the set of methods on the ClustersClient type.

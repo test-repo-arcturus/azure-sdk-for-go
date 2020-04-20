@@ -19,7 +19,7 @@ package webservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/machinelearning/mgmt/2017-01-01/webservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/machinelearning/mgmt/2017-01-01/webservices"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

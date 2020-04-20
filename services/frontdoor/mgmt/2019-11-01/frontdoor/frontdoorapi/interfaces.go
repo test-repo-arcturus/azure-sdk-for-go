@@ -19,7 +19,7 @@ package frontdoorapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/frontdoor/mgmt/2019-11-01/frontdoor"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/frontdoor/mgmt/2019-11-01/frontdoor"
 	"github.com/Azure/go-autorest/autorest/date"
 )
 

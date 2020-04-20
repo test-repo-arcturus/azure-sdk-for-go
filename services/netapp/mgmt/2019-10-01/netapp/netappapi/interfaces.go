@@ -19,7 +19,7 @@ package netappapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/netapp/mgmt/2019-10-01/netapp"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/netapp/mgmt/2019-10-01/netapp"
 	"github.com/Azure/go-autorest/autorest"
 )
 

@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamakerruntime"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamakerruntime"
 
 // ErrorCodeType enumerates the values for error code type.
 type ErrorCodeType string

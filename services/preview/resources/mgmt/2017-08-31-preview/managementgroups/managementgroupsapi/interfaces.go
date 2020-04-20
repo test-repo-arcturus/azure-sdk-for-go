@@ -19,7 +19,7 @@ package managementgroupsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/resources/mgmt/2017-08-31-preview/managementgroups"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resources/mgmt/2017-08-31-preview/managementgroups"
 )
 
 // ClientAPI contains the set of methods on the Client type.

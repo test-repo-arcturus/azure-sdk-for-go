@@ -19,7 +19,7 @@ package vmutils
 import (
 	"fmt"
 
-	vm "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachine"
+	vm "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachine"
 )
 
 // ConfigureDeploymentFromRemoteImage configures VM Role to deploy from a remote

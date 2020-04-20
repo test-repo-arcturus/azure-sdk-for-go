@@ -26,7 +26,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/authoring"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/authoring"
 
 // OperationStatusType enumerates the values for operation status type.
 type OperationStatusType string

@@ -117,27 +117,27 @@ func TestUpdateGoMod(t *testing.T) {
 	}{
 		{
 			name:     "from v1 to v1",
-			content:  fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
+			content:  fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
 			ver:      "",
-			expected: fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
+			expected: fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
 		},
 		{
 			name:     "from v1 to v2",
-			content:  fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
+			content:  fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo\n\n%s\n", goVersion),
 			ver:      "v2",
-			expected: fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
+			expected: fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
 		},
 		{
 			name:     "from v2 to v2",
-			content:  fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
+			content:  fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
 			ver:      "v2",
-			expected: fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
+			expected: fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
 		},
 		{
 			name:     "from v2 to v3",
-			content:  fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
+			content:  fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v2\n\n%s\n", goVersion),
 			ver:      "v3",
-			expected: fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v3\n\n%s\n", goVersion),
+			expected: fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/services/foo/mgmt/2019-05-01/foo/v3\n\n%s\n", goVersion),
 		},
 	}
 
@@ -266,7 +266,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioa/foo",
 				tag:       "tools/testdata/scenarioa/foo/v1.1.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioa/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioa/foo\n\n%s\n", goVersion),
 				version:   "v1.1.0",
 				changelog: true,
 			},
@@ -287,7 +287,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariob/foo",
 				tag:       "tools/testdata/scenariob/foo/v2.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariob/foo/v2\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariob/foo/v2\n\n%s\n", goVersion),
 				version:   "v2.0.0",
 				changelog: true,
 			},
@@ -307,7 +307,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioc/foo",
 				tag:       "tools/testdata/scenarioc/foo/v1.0.1",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioc/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioc/foo\n\n%s\n", goVersion),
 				version:   "v1.0.1",
 				changelog: true,
 			},
@@ -332,7 +332,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariod/foo",
 				tag:       "tools/testdata/scenariod/foo/v3.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariod/foo/v3\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariod/foo/v3\n\n%s\n", goVersion),
 				version:   "v3.0.0",
 				changelog: true,
 			},
@@ -355,7 +355,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioe/foo",
 				tag:       "tools/testdata/scenarioe/foo/v2.2.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioe/foo/v2\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioe/foo/v2\n\n%s\n", goVersion),
 				version:   "v2.2.0",
 				changelog: true,
 			},
@@ -373,7 +373,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariof/foo",
 				tag:       "tools/testdata/scenariof/foo/v1.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariof/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariof/foo\n\n%s\n", goVersion),
 				version:   "v1.0.0",
 				changelog: false,
 			},
@@ -392,7 +392,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariog/foo/mgmt/2019-10-11/foo",
 				tag:       "tools/testdata/scenariog/foo/mgmt/2019-10-11/foo/v2.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariog/foo/mgmt/2019-10-11/foo/v2\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariog/foo/mgmt/2019-10-11/foo/v2\n\n%s\n", goVersion),
 				version:   "v2.0.0",
 				changelog: true,
 			},
@@ -413,7 +413,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioh/foo/mgmt/2019-10-11/foo",
 				tag:       "tools/testdata/scenarioh/foo/mgmt/2019-10-11/foo/v2.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioh/foo/mgmt/2019-10-11/foo/v2\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioh/foo/mgmt/2019-10-11/foo/v2\n\n%s\n", goVersion),
 				version:   "v2.0.0",
 				changelog: true,
 			},
@@ -436,7 +436,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioi/foo/mgmt/2019-10-23/foo",
 				tag:       "tools/testdata/scenarioi/foo/mgmt/2019-10-23/foo/v1.1.2",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioi/foo/mgmt/2019-10-23/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioi/foo/mgmt/2019-10-23/foo\n\n%s\n", goVersion),
 				version:   "v1.1.2",
 				changelog: false,
 			},
@@ -460,7 +460,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioj/foo/mgmt/2019-10-23/foo",
 				tag:       "tools/testdata/scenarioj/foo/mgmt/2019-10-23/foo/v2.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioj/foo/mgmt/2019-10-23/foo/v2\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioj/foo/mgmt/2019-10-23/foo/v2\n\n%s\n", goVersion),
 				version:   "v2.0.0",
 				changelog: false,
 			},
@@ -483,7 +483,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariok/foo/mgmt/2019-11-01-preview/foo",
 				tag:       "tools/testdata/scenariok/foo/mgmt/2019-11-01-preview/foo/v0.2.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariok/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariok/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
 				version:   "v0.2.0",
 				changelog: true,
 			},
@@ -506,7 +506,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariol/foo/mgmt/2019-11-01-preview/foo",
 				tag:       "tools/testdata/scenariol/foo/mgmt/2019-11-01-preview/foo/v0.2.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariol/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariol/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
 				version:   "v0.2.0",
 				changelog: true,
 			},
@@ -523,7 +523,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenariom/foo/mgmt/2019-11-01-preview/foo",
 				tag:       "tools/testdata/scenariom/foo/mgmt/2019-11-01-preview/foo/v0.0.0",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenariom/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenariom/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
 				version:   "v0.0.0",
 				changelog: false,
 			},
@@ -546,7 +546,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarion/foo/mgmt/2019-11-01-preview/foo",
 				tag:       "tools/testdata/scenarion/foo/mgmt/2019-11-01-preview/foo/v0.1.3",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarion/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarion/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
 				version:   "v0.1.3",
 				changelog: true,
 			},
@@ -569,7 +569,7 @@ func TestExecuteUnstage(t *testing.T) {
 			expected: expected{
 				dest:      "../../testdata/scenarioo/foo/mgmt/2019-11-01-preview/foo",
 				tag:       "tools/testdata/scenarioo/foo/mgmt/2019-11-01-preview/foo/v0.1.2",
-				mod:       fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/tools/testdata/scenarioo/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
+				mod:       fmt.Sprintf("module github.com/test-repo-arcturus/azure-sdk-for-go/tools/testdata/scenarioo/foo/mgmt/2019-11-01-preview/foo\n\n%s\n", goVersion),
 				version:   "v0.1.2",
 				changelog: false,
 			},
@@ -579,7 +579,7 @@ func TestExecuteUnstage(t *testing.T) {
 	cleanTestData()
 	defer cleanTestData()
 
-	const repoRoot = "github.com/Azure/azure-sdk-for-go"
+	const repoRoot = "github.com/test-repo-arcturus/azure-sdk-for-go"
 
 	for _, c := range testData {
 		t.Logf("Testing %s", c.name)

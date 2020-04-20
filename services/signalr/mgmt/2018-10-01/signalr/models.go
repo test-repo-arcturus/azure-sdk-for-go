@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/signalr/mgmt/2018-10-01/signalr"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/signalr/mgmt/2018-10-01/signalr"
 
 // FeatureFlags enumerates the values for feature flags.
 type FeatureFlags string

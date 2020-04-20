@@ -19,7 +19,7 @@ package containerserviceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/containerservice/mgmt/2015-11-01-preview/containerservice"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/containerservice/mgmt/2015-11-01-preview/containerservice"
 )
 
 // ClientAPI contains the set of methods on the Client type.

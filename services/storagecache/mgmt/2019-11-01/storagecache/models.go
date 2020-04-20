@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/storagecache/mgmt/2019-11-01/storagecache"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/storagecache/mgmt/2019-11-01/storagecache"
 
 // FirmwareStatusType enumerates the values for firmware status type.
 type FirmwareStatusType string

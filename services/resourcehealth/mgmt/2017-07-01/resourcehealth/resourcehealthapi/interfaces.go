@@ -19,7 +19,7 @@ package resourcehealthapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resourcehealth/mgmt/2017-07-01/resourcehealth"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resourcehealth/mgmt/2017-07-01/resourcehealth"
 )
 
 // AvailabilityStatusesClientAPI contains the set of methods on the AvailabilityStatusesClient type.

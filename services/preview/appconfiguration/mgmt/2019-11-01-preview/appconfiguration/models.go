@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/appconfiguration/mgmt/2019-11-01-preview/appconfiguration"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appconfiguration/mgmt/2019-11-01-preview/appconfiguration"
 
 // ActionsRequired enumerates the values for actions required.
 type ActionsRequired string

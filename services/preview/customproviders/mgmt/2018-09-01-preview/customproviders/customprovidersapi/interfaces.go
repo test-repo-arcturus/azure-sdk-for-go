@@ -19,7 +19,7 @@ package customprovidersapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/customproviders/mgmt/2018-09-01-preview/customproviders"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/customproviders/mgmt/2018-09-01-preview/customproviders"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

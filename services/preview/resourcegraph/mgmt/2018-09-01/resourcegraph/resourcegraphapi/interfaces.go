@@ -19,7 +19,7 @@ package resourcegraphapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/resourcegraph/mgmt/2018-09-01/resourcegraph"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resourcegraph/mgmt/2018-09-01/resourcegraph"
 	"github.com/Azure/go-autorest/autorest"
 )
 

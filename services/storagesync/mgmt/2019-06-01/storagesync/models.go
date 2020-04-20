@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/storagesync/mgmt/2019-06-01/storagesync"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/storagesync/mgmt/2019-06-01/storagesync"
 
 // ChangeDetectionMode enumerates the values for change detection mode.
 type ChangeDetectionMode string

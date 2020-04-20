@@ -19,7 +19,7 @@ package experimentationapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearning/mgmt/2017-05-01-preview/experimentation"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearning/mgmt/2017-05-01-preview/experimentation"
 	"github.com/Azure/go-autorest/autorest"
 )
 

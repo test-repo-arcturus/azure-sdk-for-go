@@ -19,7 +19,7 @@ package imagesearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/imagesearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/imagesearch"
 )
 
 // ImagesClientAPI contains the set of methods on the ImagesClient type.

@@ -19,7 +19,7 @@ package labservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/labservices/mgmt/2018-10-15/labservices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

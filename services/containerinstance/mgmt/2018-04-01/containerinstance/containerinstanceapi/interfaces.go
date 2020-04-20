@@ -19,7 +19,7 @@ package containerinstanceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/containerinstance/mgmt/2018-04-01/containerinstance"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/containerinstance/mgmt/2018-04-01/containerinstance"
 )
 
 // ContainerGroupsClientAPI contains the set of methods on the ContainerGroupsClient type.

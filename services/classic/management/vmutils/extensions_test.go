@@ -20,7 +20,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	vm "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachine"
+	vm "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachine"
 )
 
 func Test_AddAzureVMExtensionConfiguration(t *testing.T) {

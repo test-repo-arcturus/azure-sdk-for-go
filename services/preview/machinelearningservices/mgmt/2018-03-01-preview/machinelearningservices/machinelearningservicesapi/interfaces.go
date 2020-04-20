@@ -19,7 +19,7 @@ package machinelearningservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

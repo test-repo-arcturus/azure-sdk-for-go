@@ -19,7 +19,7 @@ package consumptionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2018-05-31/consumption"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/consumption/mgmt/2018-05-31/consumption"
 )
 
 // PriceSheetClientAPI contains the set of methods on the PriceSheetClient type.

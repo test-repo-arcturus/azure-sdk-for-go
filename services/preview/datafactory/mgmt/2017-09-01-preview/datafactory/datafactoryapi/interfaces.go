@@ -19,7 +19,7 @@ package datafactoryapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/datafactory/mgmt/2017-09-01-preview/datafactory"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datafactory/mgmt/2017-09-01-preview/datafactory"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/Azure/go-autorest/autorest/date"
 )

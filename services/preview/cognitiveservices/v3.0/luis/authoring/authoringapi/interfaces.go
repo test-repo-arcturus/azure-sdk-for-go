@@ -19,7 +19,7 @@ package authoringapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/authoring"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v3.0/luis/authoring"
 	"github.com/satori/go.uuid"
 )
 

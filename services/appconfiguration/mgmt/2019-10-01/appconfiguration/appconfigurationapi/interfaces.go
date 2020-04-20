@@ -19,7 +19,7 @@ package appconfigurationapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/appconfiguration/mgmt/2019-10-01/appconfiguration"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/appconfiguration/mgmt/2019-10-01/appconfiguration"
 )
 
 // ConfigurationStoresClientAPI contains the set of methods on the ConfigurationStoresClient type.

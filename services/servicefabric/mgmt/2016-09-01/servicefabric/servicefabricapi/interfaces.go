@@ -19,7 +19,7 @@ package servicefabricapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/servicefabric/mgmt/2016-09-01/servicefabric"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/mgmt/2016-09-01/servicefabric"
 	"github.com/Azure/go-autorest/autorest"
 )
 

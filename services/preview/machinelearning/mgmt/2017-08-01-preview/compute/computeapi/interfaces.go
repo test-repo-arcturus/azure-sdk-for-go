@@ -19,7 +19,7 @@ package computeapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearning/mgmt/2017-08-01-preview/compute"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearning/mgmt/2017-08-01-preview/compute"
 )
 
 // OperationalizationClustersClientAPI contains the set of methods on the OperationalizationClustersClient type.

@@ -19,7 +19,7 @@ package maintenanceapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/maintenance/mgmt/2018-06-01-preview/maintenance"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/maintenance/mgmt/2018-06-01-preview/maintenance"
 )
 
 // ApplyUpdatesClientAPI contains the set of methods on the ApplyUpdatesClient type.

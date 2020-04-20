@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
 
 // DisableSerialConsoleResult returns whether or not Serial Console is disabled.
 type DisableSerialConsoleResult struct {

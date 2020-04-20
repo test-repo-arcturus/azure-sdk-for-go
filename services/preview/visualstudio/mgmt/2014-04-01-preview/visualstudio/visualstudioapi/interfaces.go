@@ -19,7 +19,7 @@ package visualstudioapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/visualstudio/mgmt/2014-04-01-preview/visualstudio"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/visualstudio/mgmt/2014-04-01-preview/visualstudio"
 	"github.com/Azure/go-autorest/autorest"
 	"github.com/satori/go.uuid"
 )

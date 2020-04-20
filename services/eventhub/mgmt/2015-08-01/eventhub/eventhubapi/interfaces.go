@@ -19,7 +19,7 @@ package eventhubapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/eventhub/mgmt/2015-08-01/eventhub"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/eventhub/mgmt/2015-08-01/eventhub"
 	"github.com/Azure/go-autorest/autorest"
 )
 

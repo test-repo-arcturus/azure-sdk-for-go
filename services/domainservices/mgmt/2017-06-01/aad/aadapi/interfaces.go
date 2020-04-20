@@ -19,7 +19,7 @@ package aadapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/domainservices/mgmt/2017-06-01/aad"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/domainservices/mgmt/2017-06-01/aad"
 )
 
 // DomainServiceOperationsClientAPI contains the set of methods on the DomainServiceOperationsClient type.

@@ -19,7 +19,7 @@ package spellcheckapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/spellcheck"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/spellcheck"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

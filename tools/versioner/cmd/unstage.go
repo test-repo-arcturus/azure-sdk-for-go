@@ -18,7 +18,7 @@ import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/files"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/files"
 	"github.com/spf13/viper"
 	"io"
 	"io/ioutil"
@@ -29,8 +29,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/log"
-	"github.com/Azure/azure-sdk-for-go/tools/internal/modinfo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/log"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/modinfo"
 	"github.com/spf13/cobra"
 )
 
@@ -338,12 +338,12 @@ func updateVersionFile(directory, tag string) error {
 // it's assumed that the staging directory is a subdirectory of the actual package directory.
 func findLatestMajorVersion(stage string) (string, error) {
 	// example input:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/stage
+	// ~/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/stage
 	// finds:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// ~/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis
+	// ~/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	// returns:
-	// ~/work/src/github.com/Azure/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
+	// ~/work/src/github.com/test-repo-arcturus/azure-sdk-for-go/services/redis/mgmt/2018-03-01/redis/v2
 	parent := filepath.Dir(stage)
 	dirs, err := modinfo.GetModuleSubdirs(parent)
 	if err != nil {

@@ -19,7 +19,7 @@ package commitmentplansapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearning/mgmt/2016-05-01-preview/commitmentplans"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearning/mgmt/2016-05-01-preview/commitmentplans"
 	"github.com/Azure/go-autorest/autorest"
 )
 

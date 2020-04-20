@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/batch/2020-03-01.11.0/batch"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/batch/2020-03-01.11.0/batch"
 
 // AccessScope enumerates the values for access scope.
 type AccessScope string

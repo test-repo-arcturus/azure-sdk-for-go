@@ -19,7 +19,7 @@ package managedapplicationsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2018-06-01/managedapplications"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2018-06-01/managedapplications"
 )
 
 // ApplicationsClientAPI contains the set of methods on the ApplicationsClient type.

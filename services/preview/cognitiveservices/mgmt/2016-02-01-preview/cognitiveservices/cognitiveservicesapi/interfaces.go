@@ -19,7 +19,7 @@ package cognitiveservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/mgmt/2016-02-01-preview/cognitiveservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/mgmt/2016-02-01-preview/cognitiveservices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

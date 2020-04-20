@@ -14,4 +14,4 @@ This project follows the [Microsoft Open Source Code of Conduct][coc]. For more 
 [coc]: https://opensource.microsoft.com/codeofconduct/
 [cocfaq]: https://opensource.microsoft.com/codeofconduct/faq/
 [cocmail]: mailto:opencode@microsoft.com
-[issues]: https://github.com/Azure/Azure-sdk-for-go/issues
+[issues]: https://github.com/test-repo-arcturus/azure-sdk-for-go/issues

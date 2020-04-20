@@ -19,7 +19,7 @@ package graphrbacapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/graphrbac/1.6/graphrbac"
 	"github.com/Azure/go-autorest/autorest"
 )
 

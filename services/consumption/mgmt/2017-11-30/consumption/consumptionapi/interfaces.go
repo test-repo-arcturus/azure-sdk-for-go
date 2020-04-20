@@ -19,7 +19,7 @@ package consumptionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2017-11-30/consumption"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/consumption/mgmt/2017-11-30/consumption"
 )
 
 // UsageDetailsClientAPI contains the set of methods on the UsageDetailsClient type.

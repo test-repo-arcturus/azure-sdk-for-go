@@ -19,7 +19,7 @@ package mediaapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/mediaservices/mgmt/2015-10-01/media"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/mediaservices/mgmt/2015-10-01/media"
 	"github.com/Azure/go-autorest/autorest"
 )
 

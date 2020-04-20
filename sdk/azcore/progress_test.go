@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/sdk/internal/mock"
 )
 
 func TestProgressReporting(t *testing.T) {

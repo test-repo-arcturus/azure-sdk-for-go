@@ -19,7 +19,7 @@ package customerinsightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/customerinsights/mgmt/2017-04-26/customerinsights"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/customerinsights/mgmt/2017-04-26/customerinsights"
 	"github.com/Azure/go-autorest/autorest"
 )
 

@@ -19,7 +19,7 @@ package skusapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-09-01/skus"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/compute/mgmt/2017-09-01/skus"
 )
 
 // ResourceSkusClientAPI contains the set of methods on the ResourceSkusClient type.

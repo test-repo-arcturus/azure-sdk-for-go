@@ -19,7 +19,7 @@ package websearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/websearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/websearch"
 )
 
 // WebClientAPI contains the set of methods on the WebClient type.

@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/exports"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/report"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/exports"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/report"
 	"github.com/spf13/cobra"
 )
 
@@ -163,8 +163,8 @@ func getExportsForPackages(root string, pkgDirs []string) (repoContent, error) {
 	for _, pkgDir := range pkgDirs {
 		dprintf("getting exports for %s\n", pkgDir)
 		// pkgDir = "C:\Users\somebody\AppData\Local\Temp\apidiff-1529437978\services\addons\mgmt\2017-05-15\addons"
-		// convert to package path "github.com/Azure/azure-sdk-for-go/services/analysisservices/mgmt/2016-05-16/analysisservices"
-		pkgPath := strings.Replace(pkgDir, root, "github.com/Azure/azure-sdk-for-go", -1)
+		// convert to package path "github.com/test-repo-arcturus/azure-sdk-for-go/services/analysisservices/mgmt/2016-05-16/analysisservices"
+		pkgPath := strings.Replace(pkgDir, root, "github.com/test-repo-arcturus/azure-sdk-for-go", -1)
 		pkgPath = strings.Replace(pkgPath, string(os.PathSeparator), "/", -1)
 		if _, ok := exps[pkgPath]; ok {
 			return nil, fmt.Errorf("duplicate package: %s", pkgPath)

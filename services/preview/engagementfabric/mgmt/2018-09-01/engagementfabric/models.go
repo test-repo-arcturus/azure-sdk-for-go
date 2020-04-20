@@ -23,7 +23,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/engagementfabric/mgmt/2018-09-01/engagementfabric"
 
 // CheckNameUnavailableReason enumerates the values for check name unavailable reason.
 type CheckNameUnavailableReason string

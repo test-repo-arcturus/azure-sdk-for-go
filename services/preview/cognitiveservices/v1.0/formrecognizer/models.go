@@ -25,7 +25,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/formrecognizer"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/cognitiveservices/v1.0/formrecognizer"
 
 // Status enumerates the values for status.
 type Status string

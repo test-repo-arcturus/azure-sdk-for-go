@@ -19,7 +19,7 @@ package serialconsoleapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/serialconsole/mgmt/2018-05-01/serialconsole"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

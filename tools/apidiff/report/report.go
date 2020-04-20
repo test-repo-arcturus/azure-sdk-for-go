@@ -15,8 +15,8 @@
 package report
 
 import (
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/delta"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/exports"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/delta"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/exports"
 )
 
 // Package represents a per-package report that contains additive and breaking changes.

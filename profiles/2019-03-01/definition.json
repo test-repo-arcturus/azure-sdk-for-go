@@ -16,7 +16,7 @@
     "../../services/web/mgmt/2018-02-01/web"
   ],
   "pathOverride": {
-    "github.com/Azure/azure-sdk-for-go/services/preview/monitor/mgmt/2018-03-01/insights": "resources/mgmt/insights",
-    "github.com/Azure/azure-sdk-for-go/services/preview/monitor/mgmt/2018-03-01/insights/insightsapi": "resources/mgmt/insights/insightsapi"
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/mgmt/2018-03-01/insights": "resources/mgmt/insights",
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/mgmt/2018-03-01/insights/insightsapi": "resources/mgmt/insights/insightsapi"
   }
 }

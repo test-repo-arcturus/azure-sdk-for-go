@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/monitor/mgmt/2019-03-01/insights"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/mgmt/2019-03-01/insights"
 
 // AggregationType enumerates the values for aggregation type.
 type AggregationType string

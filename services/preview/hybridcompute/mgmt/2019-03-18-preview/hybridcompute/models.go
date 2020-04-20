@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/hybridcompute/mgmt/2019-03-18-preview/hybridcompute"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/hybridcompute/mgmt/2019-03-18-preview/hybridcompute"
 
 // InstanceViewTypes enumerates the values for instance view types.
 type InstanceViewTypes string

@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/machinelearningservices/mgmt/2019-06-01/machinelearningservices"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/machinelearningservices/mgmt/2019-06-01/machinelearningservices"
 
 // AllocationState enumerates the values for allocation state.
 type AllocationState string

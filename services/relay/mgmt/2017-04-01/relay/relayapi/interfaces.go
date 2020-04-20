@@ -19,7 +19,7 @@ package relayapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/relay/mgmt/2017-04-01/relay"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/relay/mgmt/2017-04-01/relay"
 	"github.com/Azure/go-autorest/autorest"
 )
 

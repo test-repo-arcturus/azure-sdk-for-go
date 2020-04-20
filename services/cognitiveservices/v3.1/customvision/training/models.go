@@ -25,7 +25,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v3.1/customvision/training"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v3.1/customvision/training"
 
 // Classifier enumerates the values for classifier.
 type Classifier string

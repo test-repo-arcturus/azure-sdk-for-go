@@ -23,7 +23,7 @@ package networksecuritygroup
 import (
 	"encoding/xml"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
 )
 
 // SecurityGroupClient is used to perform operations on network security groups

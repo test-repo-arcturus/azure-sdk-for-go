@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/databoxedge/mgmt/2019-03-01/databoxedge"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/databoxedge/mgmt/2019-03-01/databoxedge"
 
 // AccountType enumerates the values for account type.
 type AccountType string

@@ -18,7 +18,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/pkgs"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/pkgs"
 )
 
 const (

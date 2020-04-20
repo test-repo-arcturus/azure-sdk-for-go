@@ -8,7 +8,7 @@ package azcore
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/sdk/internal/uuid"
 )
 
 const xMsClientRequestID = "x-ms-client-request-id"

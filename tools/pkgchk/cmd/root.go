@@ -23,7 +23,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/pkgs"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/pkgs"
 
 	"github.com/spf13/cobra"
 )

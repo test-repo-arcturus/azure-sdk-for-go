@@ -19,7 +19,7 @@ package subscriptionapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/subscription/mgmt/2018-03-01-preview/subscription"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/subscription/mgmt/2018-03-01-preview/subscription"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

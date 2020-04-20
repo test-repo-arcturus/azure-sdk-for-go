@@ -19,7 +19,7 @@ package virtualnetwork
 import (
 	"encoding/xml"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
 )
 
 const xmlNamespace = "http://schemas.microsoft.com/ServiceHosting/2011/07/NetworkConfiguration"

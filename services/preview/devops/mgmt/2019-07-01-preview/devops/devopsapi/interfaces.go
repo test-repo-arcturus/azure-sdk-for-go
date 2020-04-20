@@ -19,7 +19,7 @@ package devopsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/devops/mgmt/2019-07-01-preview/devops"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/devops/mgmt/2019-07-01-preview/devops"
 	"github.com/Azure/go-autorest/autorest"
 )
 

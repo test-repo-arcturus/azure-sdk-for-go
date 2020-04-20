@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/sdk/internal/mock"
 )
 
 func TestUniqueRequestIDPolicy(t *testing.T) {

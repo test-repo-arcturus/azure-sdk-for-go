@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	apidiff "github.com/Azure/azure-sdk-for-go/tools/apidiff/cmd"
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
+	apidiff "github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/cmd"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
 	"github.com/spf13/cobra"
 )
 

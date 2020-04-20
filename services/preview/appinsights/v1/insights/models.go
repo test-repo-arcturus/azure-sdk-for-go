@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/appinsights/v1/insights"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/appinsights/v1/insights"
 
 // EventType enumerates the values for event type.
 type EventType string

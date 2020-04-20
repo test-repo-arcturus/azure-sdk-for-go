@@ -19,7 +19,7 @@ package backupapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/recoveryservices/mgmt/2017-07-01/backup"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2017-07-01/backup"
 	"github.com/Azure/go-autorest/autorest"
 )
 

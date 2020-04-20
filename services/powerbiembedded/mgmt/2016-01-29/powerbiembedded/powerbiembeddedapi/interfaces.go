@@ -19,7 +19,7 @@ package powerbiembeddedapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/powerbiembedded/mgmt/2016-01-29/powerbiembedded"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/powerbiembedded/mgmt/2016-01-29/powerbiembedded"
 	"github.com/Azure/go-autorest/autorest"
 )
 

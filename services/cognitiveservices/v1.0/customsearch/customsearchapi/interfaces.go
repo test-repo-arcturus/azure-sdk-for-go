@@ -19,7 +19,7 @@ package customsearchapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v1.0/customsearch"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v1.0/customsearch"
 )
 
 // CustomInstanceClientAPI contains the set of methods on the CustomInstanceClient type.

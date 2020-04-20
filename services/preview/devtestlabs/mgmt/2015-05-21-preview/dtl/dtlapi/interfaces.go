@@ -19,7 +19,7 @@ package dtlapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/devtestlabs/mgmt/2015-05-21-preview/dtl"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/devtestlabs/mgmt/2015-05-21-preview/dtl"
 	"github.com/Azure/go-autorest/autorest"
 )
 

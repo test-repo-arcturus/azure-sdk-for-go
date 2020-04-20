@@ -19,7 +19,7 @@ package computeapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/apimanagement/mgmt/2019-01-01/apimanagement"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/apimanagement/mgmt/2019-01-01/apimanagement"
 
 // AlwaysLog enumerates the values for always log.
 type AlwaysLog string

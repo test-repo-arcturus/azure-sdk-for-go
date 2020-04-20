@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/Azure/azure-sdk-for-go/tools/picker/cmd"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/tools/picker/cmd"
 
 func main() {
 	cmd.Execute()

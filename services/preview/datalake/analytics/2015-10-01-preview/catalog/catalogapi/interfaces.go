@@ -19,7 +19,7 @@ package catalogapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/datalake/analytics/2015-10-01-preview/catalog"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2015-10-01-preview/catalog"
 	"github.com/Azure/go-autorest/autorest"
 )
 

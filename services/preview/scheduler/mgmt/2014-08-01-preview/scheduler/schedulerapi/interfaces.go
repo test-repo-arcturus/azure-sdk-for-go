@@ -19,7 +19,7 @@ package schedulerapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/scheduler/mgmt/2014-08-01-preview/scheduler"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/scheduler/mgmt/2014-08-01-preview/scheduler"
 	"github.com/Azure/go-autorest/autorest"
 )
 

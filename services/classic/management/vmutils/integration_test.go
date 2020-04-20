@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/services/classic/management"
-	"github.com/Azure/azure-sdk-for-go/services/classic/management/hostedservice"
-	"github.com/Azure/azure-sdk-for-go/services/classic/management/location"
-	"github.com/Azure/azure-sdk-for-go/services/classic/management/osimage"
-	storage "github.com/Azure/azure-sdk-for-go/services/classic/management/storageservice"
-	"github.com/Azure/azure-sdk-for-go/services/classic/management/testutils"
-	vm "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachine"
-	vmimage "github.com/Azure/azure-sdk-for-go/services/classic/management/virtualmachineimage"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/hostedservice"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/location"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/osimage"
+	storage "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/storageservice"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/testutils"
+	vm "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachine"
+	vmimage "github.com/test-repo-arcturus/azure-sdk-for-go/services/classic/management/virtualmachineimage"
 )
 
 func TestDeployPlatformImage(t *testing.T) {

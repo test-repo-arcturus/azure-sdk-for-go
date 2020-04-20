@@ -19,7 +19,7 @@ package containerregistryapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/containerregistry/mgmt/2016-06-27-preview/containerregistry"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/containerregistry/mgmt/2016-06-27-preview/containerregistry"
 	"github.com/Azure/go-autorest/autorest"
 )
 

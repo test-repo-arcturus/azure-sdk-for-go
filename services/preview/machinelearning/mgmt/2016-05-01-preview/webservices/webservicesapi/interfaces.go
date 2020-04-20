@@ -19,7 +19,7 @@ package webservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/machinelearning/mgmt/2016-05-01-preview/webservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearning/mgmt/2016-05-01-preview/webservices"
 )
 
 // ClientAPI contains the set of methods on the Client type.

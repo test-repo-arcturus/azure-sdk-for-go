@@ -19,7 +19,7 @@ package featuresapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2015-12-01/features"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2015-12-01/features"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

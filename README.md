@@ -1,12 +1,12 @@
 # Azure SDK for Go
 
-[![godoc](https://godoc.org/github.com/Azure/azure-sdk-for-go?status.svg)](https://godoc.org/github.com/Azure/azure-sdk-for-go)
+[![godoc](https://godoc.org/github.com/test-repo-arcturus/azure-sdk-for-go?status.svg)](https://godoc.org/github.com/test-repo-arcturus/azure-sdk-for-go)
 
 [![Build Status](https://travis-ci.org/Azure/azure-sdk-for-go.svg?branch=master)](https://travis-ci.org/Azure/azure-sdk-for-go)
 
 [![Build Status](https://dev.azure.com/azure-sdk/public/_apis/build/status/go/Azure.azure-sdk-for-go?branchName=latest)](https://dev.azure.com/azure-sdk/public/_build/latest?definitionId=640&branchName=latest)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/Azure/azure-sdk-for-go)](https://goreportcard.com/report/github.com/Azure/azure-sdk-for-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/test-repo-arcturus/azure-sdk-for-go)](https://goreportcard.com/report/github.com/test-repo-arcturus/azure-sdk-for-go)
 
 azure-sdk-for-go provides Go packages for managing and using Azure services.
 It officially supports the last two major releases of Go.  Older versions of
@@ -41,7 +41,7 @@ The SDK codebase adheres to [semantic versioning](https://semver.org) and thus
 avoids breaking changes other than at major (x.0.0) releases. Because Azure's
 APIs are updated frequently, we release a **new major version at the end of
 each month** with a full changelog. For more details and background see [SDK Update
-Practices](https://github.com/Azure/azure-sdk-for-go/wiki/SDK-Update-Practices).
+Practices](https://github.com/test-repo-arcturus/azure-sdk-for-go/wiki/SDK-Update-Practices).
 
 To more reliably manage dependencies like the Azure SDK in your applications we
 recommend [golang/dep](https://github.com/golang/dep).
@@ -69,7 +69,7 @@ If a package you need isn't available please open an issue and let us know.
 ## Install
 
 ```sh
-$ go get -u github.com/Azure/azure-sdk-for-go/...
+$ go get -u github.com/test-repo-arcturus/azure-sdk-for-go/...
 ```
 
 and you should also make sure to include the minimum version of [`go-autorest`](https://github.com/Azure/go-autorest) that is specified in `Gopkg.toml` file.
@@ -77,7 +77,7 @@ and you should also make sure to include the minimum version of [`go-autorest`](
 Or if you use dep, within your repo run:
 
 ```sh
-$ dep ensure -add github.com/Azure/azure-sdk-for-go
+$ dep ensure -add github.com/test-repo-arcturus/azure-sdk-for-go
 ```
 
 If you need to install Go, follow [the official instructions](https://golang.org/dl/).
@@ -98,7 +98,7 @@ section](#authentication).
    `res, err := c.CreateOrUpdate(...)`.
 4. Handle responses and errors.
 
-[services_dir]: https://github.com/Azure/azure-sdk-for-go/tree/master/services
+[services_dir]: https://github.com/test-repo-arcturus/azure-sdk-for-go/tree/master/services
 
 For example, to create a new virtual network (substitute your own values for
 strings in angle brackets):
@@ -109,7 +109,7 @@ package main
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/services/network/mgmt/2017-09-01/network"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/network/mgmt/2017-09-01/network"
 
 	"github.com/Azure/go-autorest/autorest/azure/auth"
 	"github.com/Azure/go-autorest/autorest/to"
@@ -296,7 +296,7 @@ most updated Azure datacenters, regional datacenters with earlier APIs, and
 even on-premises installations of Azure Stack.
 
 **SDK versions** apply globally and are tracked by git
-[tags](https://github.com/Azure/azure-sdk-for-go/tags). These are in x.y.z form
+[tags](https://github.com/test-repo-arcturus/azure-sdk-for-go/tags). These are in x.y.z form
 and generally adhere to [semantic versioning](https://semver.org) specifications.
 
 **Service API versions** are generally represented by a date string and are
@@ -305,8 +305,8 @@ latest API versions for Compute and Network, use the following imports:
 
 ```go
 import (
-    "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
-    "github.com/Azure/azure-sdk-for-go/services/network/mgmt/2017-09-01/network"
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
+    "github.com/test-repo-arcturus/azure-sdk-for-go/services/network/mgmt/2017-09-01/network"
 )
 ```
 
@@ -317,7 +317,7 @@ cannot be used alone to ensure backwards compatibility.
 All available services and versions are listed under the `services/` path in
 this repo and in [GoDoc][services_godoc]. Run `find ./services -type d -mindepth 3` to list all available service packages.
 
-[services_godoc]: https://godoc.org/github.com/Azure/azure-sdk-for-go/services
+[services_godoc]: https://godoc.org/github.com/test-repo-arcturus/azure-sdk-for-go/services
 
 ### Profiles
 
@@ -331,9 +331,9 @@ component API versions are aliases to the true service package under
 `services/`. You can use them as follows:
 
 ```go
-import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/compute/mgmt/compute"
-import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/network/mgmt/network"
-import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/storage/mgmt/storage"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/2017-03-09/compute/mgmt/compute"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/2017-03-09/network/mgmt/network"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/2017-03-09/storage/mgmt/storage"
 ```
 
 The following profiles are available for hybrid Azure and Azure Stack environments.
@@ -355,8 +355,8 @@ As an example, to automatically use the most recent Compute APIs, use one of
 the following imports:
 
 ```go
-import "github.com/Azure/azure-sdk-for-go/profiles/latest/compute/mgmt/compute"
-import "github.com/Azure/azure-sdk-for-go/profiles/preview/compute/mgmt/compute"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/latest/compute/mgmt/compute"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/preview/compute/mgmt/compute"
 ```
 
 ### Avoiding Breaking Changes
@@ -366,20 +366,20 @@ To avoid breaking changes, when specifying imports you should specify a `Service
 For example, in your source code imports, use a `Service API Version` (`2017-12-01`):
 
 ```go
-import "github.com/Azure/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/services/compute/mgmt/2017-12-01/compute"
 ```
 
 or `Profile` version (`2017-03-09`):
 
 ```go
-import "github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/compute/mgmt/compute"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/profiles/2017-03-09/compute/mgmt/compute"
 ```
 
 As well as, for dep, a `Gopkg.toml` file with:
 
 ```toml
 [[constraint]]
-  name = "github.com/Azure/azure-sdk-for-go"
+  name = "github.com/test-repo-arcturus/azure-sdk-for-go"
   version = "21.0.0"
 ```
 
@@ -387,7 +387,7 @@ Combined, these techniques will ensure that breaking changes should not occur. I
 
 ```toml
 [[constraint]]
-  name = "github.com/Azure/azure-sdk-for-go"
+  name = "github.com/test-repo-arcturus/azure-sdk-for-go"
   version = "=21.3.0"
 ```
 
@@ -541,7 +541,7 @@ The `PollingDelay` and `PollingDuration` values are used exclusively by [WaitFor
 
 # Resources
 
-- SDK docs are at [godoc.org](https://godoc.org/github.com/Azure/azure-sdk-for-go/).
+- SDK docs are at [godoc.org](https://godoc.org/github.com/test-repo-arcturus/azure-sdk-for-go/).
 - SDK samples are at [Azure-Samples/azure-sdk-for-go-samples](https://github.com/Azure-Samples/azure-sdk-for-go-samples).
 - SDK notifications are published via the [Azure update feed](https://azure.microsoft.com/updates/).
 - Azure API docs are at [docs.microsoft.com/rest/api](https://docs.microsoft.com/rest/api/).

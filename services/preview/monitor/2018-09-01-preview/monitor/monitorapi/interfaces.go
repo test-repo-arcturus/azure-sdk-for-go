@@ -19,7 +19,7 @@ package monitorapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/monitor/2018-09-01-preview/monitor"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/monitor/2018-09-01-preview/monitor"
 )
 
 // MetricsClientAPI contains the set of methods on the MetricsClient type.

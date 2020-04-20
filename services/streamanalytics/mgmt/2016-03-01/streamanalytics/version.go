@@ -1,6 +1,6 @@
 package streamanalytics
 
-import "github.com/Azure/azure-sdk-for-go/version"
+import "github.com/test-repo-arcturus/azure-sdk-for-go/version"
 
 // Copyright (c) Microsoft and contributors.  All rights reserved.
 //

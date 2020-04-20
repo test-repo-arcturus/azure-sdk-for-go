@@ -19,7 +19,7 @@ package redhatopenshiftapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/redhatopenshift/mgmt/2020-04-30/redhatopenshift"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/redhatopenshift/mgmt/2020-04-30/redhatopenshift"
 )
 
 // OperationsClientAPI contains the set of methods on the OperationsClient type.

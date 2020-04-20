@@ -19,7 +19,7 @@ package containerregistryapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/containerregistry/mgmt/2019-06-01-preview/containerregistry"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/containerregistry/mgmt/2019-06-01-preview/containerregistry"
 )
 
 // RegistriesClientAPI contains the set of methods on the RegistriesClient type.

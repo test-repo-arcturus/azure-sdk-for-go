@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/windowsesu/2019-09-16-preview/windowsesu"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/windowsesu/2019-09-16-preview/windowsesu"
 
 // OsType enumerates the values for os type.
 type OsType string

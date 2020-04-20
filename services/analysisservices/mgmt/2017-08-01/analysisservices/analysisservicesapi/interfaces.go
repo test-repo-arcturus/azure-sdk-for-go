@@ -19,7 +19,7 @@ package analysisservicesapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/analysisservices/mgmt/2017-08-01/analysisservices"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/analysisservices/mgmt/2017-08-01/analysisservices"
 	"github.com/Azure/go-autorest/autorest"
 )
 

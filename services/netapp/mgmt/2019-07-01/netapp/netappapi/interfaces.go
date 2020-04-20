@@ -19,7 +19,7 @@ package netappapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/netapp/mgmt/2019-07-01/netapp"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/netapp/mgmt/2019-07-01/netapp"
 )
 
 // BaseClientAPI contains the set of methods on the BaseClient type.

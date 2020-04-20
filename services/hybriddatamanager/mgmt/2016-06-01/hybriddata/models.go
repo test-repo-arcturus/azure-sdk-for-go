@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/hybriddatamanager/mgmt/2016-06-01/hybriddata"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/hybriddatamanager/mgmt/2016-06-01/hybriddata"
 
 // IsJobCancellable enumerates the values for is job cancellable.
 type IsJobCancellable string

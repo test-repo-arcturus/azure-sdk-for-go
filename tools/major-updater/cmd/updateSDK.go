@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/Azure/azure-sdk-for-go/tools/apidiff/repo"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/apidiff/repo"
 	"github.com/spf13/cobra"
 )
 

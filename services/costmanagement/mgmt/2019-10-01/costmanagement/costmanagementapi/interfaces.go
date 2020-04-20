@@ -19,7 +19,7 @@ package costmanagementapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/costmanagement/mgmt/2019-10-01/costmanagement"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/costmanagement/mgmt/2019-10-01/costmanagement"
 	"github.com/Azure/go-autorest/autorest"
 )
 

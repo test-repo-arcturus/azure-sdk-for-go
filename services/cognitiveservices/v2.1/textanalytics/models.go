@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.1/textanalytics"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v2.1/textanalytics"
 
 // DetectedLanguage ...
 type DetectedLanguage struct {

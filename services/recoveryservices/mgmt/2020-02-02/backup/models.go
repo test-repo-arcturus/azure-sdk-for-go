@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/Azure/azure-sdk-for-go/services/recoveryservices/mgmt/2020-02-02/backup"
+const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/recoveryservices/mgmt/2020-02-02/backup"
 
 // AzureFileShareType enumerates the values for azure file share type.
 type AzureFileShareType string

@@ -19,7 +19,7 @@ package policyinsightsapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/policyinsights/mgmt/2018-04-04/policyinsights"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/policyinsights/mgmt/2018-04-04/policyinsights"
 	"github.com/Azure/go-autorest/autorest/date"
 )
 

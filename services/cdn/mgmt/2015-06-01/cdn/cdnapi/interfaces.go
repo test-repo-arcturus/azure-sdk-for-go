@@ -19,7 +19,7 @@ package cdnapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/cdn/mgmt/2015-06-01/cdn"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/cdn/mgmt/2015-06-01/cdn"
 )
 
 // ProfilesClientAPI contains the set of methods on the ProfilesClient type.

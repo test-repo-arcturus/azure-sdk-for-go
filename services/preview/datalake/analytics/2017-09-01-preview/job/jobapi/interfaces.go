@@ -19,7 +19,7 @@ package jobapi
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/services/preview/datalake/analytics/2017-09-01-preview/job"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/datalake/analytics/2017-09-01-preview/job"
 	"github.com/Azure/go-autorest/autorest/date"
 	"github.com/satori/go.uuid"
 )

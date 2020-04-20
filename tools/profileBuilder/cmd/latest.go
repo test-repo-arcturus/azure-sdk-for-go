@@ -23,8 +23,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/azure-sdk-for-go/tools/internal/dirs"
-	"github.com/Azure/azure-sdk-for-go/tools/profileBuilder/model"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/internal/dirs"
+	"github.com/test-repo-arcturus/azure-sdk-for-go/tools/profileBuilder/model"
 	"github.com/spf13/cobra"
 )
 
