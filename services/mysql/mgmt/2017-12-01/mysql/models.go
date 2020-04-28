@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/mysql/mgmt/2017-12-01/mysql"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/mysql/mgmt/2017-12-01/mysql"
 
 // CreateMode enumerates the values for create mode.
 type CreateMode string

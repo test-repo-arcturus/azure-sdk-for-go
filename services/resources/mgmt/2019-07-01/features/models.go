@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-07-01/features"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2019-07-01/features"
 
 // ChangeType enumerates the values for change type.
 type ChangeType string

@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/security/mgmt/v1.0/security"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/security/mgmt/v1.0/security"
 
 // AadConnectivityState enumerates the values for aad connectivity state.
 type AadConnectivityState string

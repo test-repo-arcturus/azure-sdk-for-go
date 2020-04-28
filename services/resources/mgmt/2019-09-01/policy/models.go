@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/resources/mgmt/2019-09-01/policy"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/resources/mgmt/2019-09-01/policy"
 
 // EnforcementMode enumerates the values for enforcement mode.
 type EnforcementMode string

@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/windowsiot/mgmt/2019-06-01/windowsiot"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/windowsiot/mgmt/2019-06-01/windowsiot"
 
 // ServiceNameUnavailabilityReason enumerates the values for service name unavailability reason.
 type ServiceNameUnavailabilityReason string

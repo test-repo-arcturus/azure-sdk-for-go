@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/machinelearning/mgmt/2019-10-01/workspaces"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/machinelearning/mgmt/2019-10-01/workspaces"
 
 // State enumerates the values for state.
 type State string

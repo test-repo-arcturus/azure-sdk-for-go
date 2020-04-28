@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/resourcehealth/mgmt/2017-07-01/resourcehealth"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/resourcehealth/mgmt/2017-07-01/resourcehealth"
 
 // AvailabilityStateValues enumerates the values for availability state values.
 type AvailabilityStateValues string

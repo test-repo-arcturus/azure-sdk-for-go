@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/msi/mgmt/2018-11-30/msi"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/msi/mgmt/2018-11-30/msi"
 
 // AzureEntityResource the resource model definition for a Azure Resource Manager resource with an etag.
 type AzureEntityResource struct {

@@ -23,7 +23,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/attestation/mgmt/2018-09-01-preview/attestation"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/attestation/mgmt/2018-09-01-preview/attestation"
 
 // ServiceStatus enumerates the values for service status.
 type ServiceStatus string

@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/migrate/mgmt/2020-01-01/migrate"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/migrate/mgmt/2020-01-01/migrate"
 
 // Bitness enumerates the values for bitness.
 type Bitness string

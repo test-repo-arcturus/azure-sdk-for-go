@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v4.0/qnamaker"
 
 // EnvironmentType enumerates the values for environment type.
 type EnvironmentType string

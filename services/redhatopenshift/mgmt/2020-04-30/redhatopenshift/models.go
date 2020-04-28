@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/redhatopenshift/mgmt/2020-04-30/redhatopenshift"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/redhatopenshift/mgmt/2020-04-30/redhatopenshift"
 
 // ProvisioningState enumerates the values for provisioning state.
 type ProvisioningState string

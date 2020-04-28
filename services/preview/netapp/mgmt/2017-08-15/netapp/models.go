@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/netapp/mgmt/2017-08-15/netapp"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/netapp/mgmt/2017-08-15/netapp"
 
 // ServiceLevel enumerates the values for service level.
 type ServiceLevel string

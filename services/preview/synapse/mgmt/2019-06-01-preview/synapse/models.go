@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/synapse/mgmt/2019-06-01-preview/synapse"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/synapse/mgmt/2019-06-01-preview/synapse"
 
 // ActualState enumerates the values for actual state.
 type ActualState string

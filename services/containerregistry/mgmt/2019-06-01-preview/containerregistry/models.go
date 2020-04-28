@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/containerregistry/mgmt/2019-06-01-preview/containerregistry"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/containerregistry/mgmt/2019-06-01-preview/containerregistry"
 
 // Action enumerates the values for action.
 type Action string

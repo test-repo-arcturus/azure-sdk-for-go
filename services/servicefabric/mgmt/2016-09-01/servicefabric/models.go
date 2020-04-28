@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/servicefabric/mgmt/2016-09-01/servicefabric"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/servicefabric/mgmt/2016-09-01/servicefabric"
 
 // ClusterState enumerates the values for cluster state.
 type ClusterState string

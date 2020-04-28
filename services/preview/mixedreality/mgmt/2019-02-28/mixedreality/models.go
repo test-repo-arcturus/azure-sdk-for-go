@@ -27,7 +27,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/mixedreality/mgmt/2019-02-28/mixedreality"
 
 // NameAvailability enumerates the values for name availability.
 type NameAvailability string

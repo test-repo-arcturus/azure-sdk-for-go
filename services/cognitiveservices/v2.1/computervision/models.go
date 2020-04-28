@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cognitiveservices/v2.1/computervision"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.1/computervision"
 
 // DescriptionExclude enumerates the values for description exclude.
 type DescriptionExclude string

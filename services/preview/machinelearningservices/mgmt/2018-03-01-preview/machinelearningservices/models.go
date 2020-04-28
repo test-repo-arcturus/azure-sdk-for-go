@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/machinelearningservices/mgmt/2018-03-01-preview/machinelearningservices"
 
 // ComputeType enumerates the values for compute type.
 type ComputeType string

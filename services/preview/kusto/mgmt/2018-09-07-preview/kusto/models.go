@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/kusto/mgmt/2018-09-07-preview/kusto"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/kusto/mgmt/2018-09-07-preview/kusto"
 
 // AzureScaleType enumerates the values for azure scale type.
 type AzureScaleType string

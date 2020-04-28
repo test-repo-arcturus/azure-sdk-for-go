@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/resources/mgmt/2020-02-01/managementgroups"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/resources/mgmt/2020-02-01/managementgroups"
 
 // InheritedPermissions enumerates the values for inherited permissions.
 type InheritedPermissions string

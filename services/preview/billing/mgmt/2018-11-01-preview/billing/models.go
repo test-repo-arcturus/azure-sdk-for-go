@@ -30,7 +30,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/billing/mgmt/2018-11-01-preview/billing"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/billing/mgmt/2018-11-01-preview/billing"
 
 // AccountType enumerates the values for account type.
 type AccountType string

@@ -24,7 +24,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/maps/mgmt/2020-02-01-preview/maps"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/maps/mgmt/2020-02-01-preview/maps"
 
 // CreatedByType enumerates the values for created by type.
 type CreatedByType string

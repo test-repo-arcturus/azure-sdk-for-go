@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/hdinsight/2018-11-01-preview/hdinsight"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/hdinsight/2018-11-01-preview/hdinsight"
 
 // ApplicationState enumerates the values for application state.
 type ApplicationState string

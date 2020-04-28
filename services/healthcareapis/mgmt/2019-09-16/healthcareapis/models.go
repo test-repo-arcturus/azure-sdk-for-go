@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/healthcareapis/mgmt/2019-09-16/healthcareapis"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/healthcareapis/mgmt/2019-09-16/healthcareapis"
 
 // Kind enumerates the values for kind.
 type Kind string

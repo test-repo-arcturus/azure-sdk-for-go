@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/cosmos-db/mgmt/2019-12-12/documentdb"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/cosmos-db/mgmt/2019-12-12/documentdb"
 
 // CompositePathSortOrder enumerates the values for composite path sort order.
 type CompositePathSortOrder string

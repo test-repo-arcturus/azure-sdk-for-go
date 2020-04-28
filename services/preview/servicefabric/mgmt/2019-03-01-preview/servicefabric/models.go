@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicefabric/mgmt/2019-03-01-preview/servicefabric"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/servicefabric/mgmt/2019-03-01-preview/servicefabric"
 
 // ArmServicePackageActivationMode enumerates the values for arm service package activation mode.
 type ArmServicePackageActivationMode string

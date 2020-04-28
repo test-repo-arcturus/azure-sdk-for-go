@@ -29,7 +29,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/servicebus/mgmt/2018-01-01-preview/servicebus"
 
 // DefaultAction enumerates the values for default action.
 type DefaultAction string

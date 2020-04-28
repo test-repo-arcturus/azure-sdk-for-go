@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/azuredata/mgmt/2017-03-01-preview/azuredata"
 
 // OperationOrigin enumerates the values for operation origin.
 type OperationOrigin string

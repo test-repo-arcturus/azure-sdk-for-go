@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/operationalinsights/v1/operationalinsights"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/operationalinsights/v1/operationalinsights"
 
 // MetadataColumnDataType enumerates the values for metadata column data type.
 type MetadataColumnDataType string

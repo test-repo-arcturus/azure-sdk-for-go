@@ -28,7 +28,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/operationalinsights/mgmt/2015-03-20/operationalinsights"
 
 // PurgeState enumerates the values for purge state.
 type PurgeState string

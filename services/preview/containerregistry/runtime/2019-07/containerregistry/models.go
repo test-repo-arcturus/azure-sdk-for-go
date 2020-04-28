@@ -22,7 +22,7 @@ import (
 )
 
 // The package's fully qualified name.
-const fqdn = "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/containerregistry/runtime/2019-07/containerregistry"
+const fqdn = "github.com/Azure/azure-sdk-for-go/services/preview/containerregistry/runtime/2019-07/containerregistry"
 
 // AccessToken ...
 type AccessToken struct {
