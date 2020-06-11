@@ -22,8 +22,8 @@ package iotspaces
 import (
 	"context"
 
-	original "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/iotspaces/mgmt/2017-10-01-preview/iotspaces"
 	uuid "github.com/satori/go.uuid"
+	original "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/iotspaces/mgmt/2017-10-01-preview/iotspaces"
 )
 
 const (

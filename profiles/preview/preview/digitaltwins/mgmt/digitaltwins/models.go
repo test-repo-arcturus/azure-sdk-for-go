@@ -22,8 +22,8 @@ package digitaltwins
 import (
 	"context"
 
-	original "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
 	uuid "github.com/satori/go.uuid"
+	original "github.com/test-repo-arcturus/azure-sdk-for-go/services/preview/digitaltwins/mgmt/2020-03-01-preview/digitaltwins"
 )
 
 const (
